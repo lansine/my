@@ -26,5 +26,4 @@ jobs:
 
       - name: Upload to OSS
         run: |
-          ossutil cp liao-lanxin-timeline.html oss://${{ vars.OSS_BUCKET }}/liao-lanxin-timeline.html --force --meta "Content-Type:text/html; charset=utf-8"
-          ossutil cp README.md oss://${{ vars.OSS_BUCKET }}/README.md --force --meta "Content-Type:text/plain; charset=utf-8"
+          ossutil cp liao-lanxin-timeline.html oss://${{ vars.OSS_BUCKET }}/index.html --force --meta "Content-Type:text/html; charset=utf-8"
