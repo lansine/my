@@ -5,67 +5,110 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>廖兰新 - 公开演讲与媒体报道</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
 
   :root {
-    --bg: #fafbfd;
-    --surface: #ffffff;
-    --surface-alt: #f5f7fa;
-    --border: #e8ecf1;
-    --border-strong: #d1d9e4;
-    --accent: #1d4ed8;
-    --accent-light: #3b82f6;
-    --accent-bg: rgba(29,78,216,0.06);
-    --accent-bg-strong: rgba(29,78,216,0.12);
-    --gradient-start: #1d4ed8;
-    --gradient-end: #7c3aed;
-    --text-primary: #0c1425;
-    --text-secondary: #3d4f6f;
-    --text-tertiary: #7c8ba5;
-    --gold: #b45309;
-    --gold-bg: rgba(180,83,9,0.08);
-    --green: #047857;
-    --green-bg: rgba(4,120,87,0.08);
-    --purple: #6d28d9;
-    --purple-bg: rgba(109,40,217,0.08);
-    --rose: #be123c;
-    --cyan: #0e7490;
-    --cyan-bg: rgba(14,116,144,0.08);
-    --shadow-sm: 0 1px 3px rgba(12,20,37,0.04), 0 1px 2px rgba(12,20,37,0.03);
-    --shadow-md: 0 4px 16px rgba(12,20,37,0.06), 0 1px 3px rgba(12,20,37,0.04);
-    --shadow-lg: 0 12px 40px rgba(12,20,37,0.08), 0 2px 8px rgba(12,20,37,0.04);
-    --shadow-accent: 0 4px 20px rgba(29,78,216,0.15), 0 1px 3px rgba(29,78,216,0.08);
+    --bg: #080b12;
+    --bg-subtle: #0d1119;
+    --surface: rgba(17,24,39,0.7);
+    --surface-solid: #111827;
+    --surface-alt: rgba(17,24,39,0.5);
+    --surface-hover: rgba(24,33,50,0.8);
+    --border: rgba(255,255,255,0.06);
+    --border-strong: rgba(255,255,255,0.12);
+    --border-accent: rgba(251,191,36,0.2);
+    --accent: #fbbf24;
+    --accent-light: #fcd34d;
+    --accent-dim: #b47e16;
+    --accent-bg: rgba(251,191,36,0.08);
+    --accent-bg-strong: rgba(251,191,36,0.15);
+    --gradient-start: #fbbf24;
+    --gradient-mid: #f59e0b;
+    --gradient-end: #ea580c;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-tertiary: #64748b;
+    --gold: #fbbf24;
+    --gold-bg: rgba(251,191,36,0.1);
+    --green: #34d399;
+    --green-bg: rgba(52,211,153,0.1);
+    --purple: #a78bfa;
+    --purple-bg: rgba(167,139,250,0.1);
+    --rose: #fb7185;
+    --cyan: #22d3ee;
+    --cyan-bg: rgba(34,211,238,0.1);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-lg: 0 12px 40px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3);
+    --shadow-accent: 0 4px 24px rgba(251,191,36,0.15), 0 0 0 1px rgba(251,191,36,0.1);
+    --shadow-glow: 0 0 30px rgba(251,191,36,0.08);
+    --radius: 14px;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    font-family: 'Noto Sans SC', 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
     background: var(--bg);
     color: var(--text-primary);
     line-height: 1.7;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Grid background */
+  /* Noise texture overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.5;
+  }
+
+  /* Grid background — subtle circuit-board pattern */
   .grid-bg {
     position: fixed;
     inset: 0;
     background-image:
-      linear-gradient(rgba(29,78,216,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(29,78,216,0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
+      linear-gradient(rgba(251,191,36,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(251,191,36,0.025) 1px, transparent 1px);
+    background-size: 80px 80px;
     pointer-events: none;
     z-index: 0;
-    mask-image: radial-gradient(ellipse at 50% 0%, black 0%, transparent 70%);
-    -webkit-mask-image: radial-gradient(ellipse at 50% 0%, black 0%, transparent 70%);
+    mask-image: radial-gradient(ellipse at 50% 0%, black 0%, transparent 60%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 0%, black 0%, transparent 60%);
+  }
+
+  /* Scroll-triggered reveal animation */
+  .t-item, .ach-card, .evo-track, .roles-section {
+    opacity: 0;
+    transform: translateY(24px);
+    animation: reveal 0.6s ease forwards;
+  }
+  .t-item:nth-child(1) { animation-delay: 0.05s; }
+  .t-item:nth-child(2) { animation-delay: 0.1s; }
+  .t-item:nth-child(3) { animation-delay: 0.15s; }
+  .t-item:nth-child(4) { animation-delay: 0.2s; }
+  .t-item:nth-child(5) { animation-delay: 0.25s; }
+  .t-item:nth-child(6) { animation-delay: 0.3s; }
+  .t-item:nth-child(7) { animation-delay: 0.35s; }
+  .t-item:nth-child(8) { animation-delay: 0.4s; }
+  .t-item:nth-child(9) { animation-delay: 0.45s; }
+  .t-item:nth-child(10) { animation-delay: 0.5s; }
+  .t-item:nth-child(11) { animation-delay: 0.55s; }
+  .t-item:nth-child(12) { animation-delay: 0.6s; }
+
+  @keyframes reveal {
+    to { opacity: 1; transform: translateY(0); }
   }
 
   /* ===== HERO ===== */
   .hero {
     position: relative;
-    padding: 72px 24px 56px;
+    padding: 80px 24px 64px;
     text-align: center;
     overflow: hidden;
   }
@@ -73,68 +116,99 @@
   .hero::before {
     content: '';
     position: absolute;
-    top: -300px;
+    top: -200px;
     left: 50%;
     transform: translateX(-50%);
-    width: 900px;
-    height: 600px;
-    background: radial-gradient(ellipse, rgba(29,78,216,0.07) 0%, rgba(124,58,237,0.04) 40%, transparent 70%);
+    width: 1000px;
+    height: 700px;
+    background:
+      radial-gradient(ellipse at 30% 50%, rgba(251,191,36,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 50%, rgba(234,88,12,0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, rgba(34,211,238,0.04) 0%, transparent 40%);
     pointer-events: none;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-accent), transparent);
   }
 
   .hero-badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 5px 14px 5px 12px;
+    padding: 6px 16px 6px 12px;
     background: var(--surface);
-    border: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-strong);
     border-radius: 999px;
-    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
     font-weight: 500;
-    color: var(--text-secondary);
-    margin-bottom: 28px;
+    color: var(--accent);
+    margin-bottom: 32px;
     position: relative;
-    box-shadow: var(--shadow-sm);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    animation: reveal 0.5s ease forwards;
   }
 
   .hero-badge .dot {
     width: 6px;
     height: 6px;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    background: var(--accent);
     border-radius: 50%;
-    animation: pulse 2.5s ease-in-out infinite;
+    animation: pulse 2s ease-in-out infinite;
+    box-shadow: 0 0 8px var(--accent);
   }
 
   @keyframes pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.85); }
+    0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 8px rgba(251,191,36,0.5); }
+    50% { opacity: 0.6; transform: scale(0.8); box-shadow: 0 0 4px rgba(251,191,36,0.2); }
   }
 
   .hero h1 {
-    font-size: clamp(40px, 5.5vw, 60px);
-    font-weight: 800;
-    letter-spacing: -2px;
-    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(48px, 6vw, 72px);
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 12px;
     position: relative;
-    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    background: linear-gradient(135deg, #fef3c7 0%, var(--accent) 30%, var(--gradient-end) 70%, #fef3c7 100%);
+    background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: shimmer 6s linear infinite, reveal 0.6s ease forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
   }
 
   .hero-sub {
     font-size: 17px;
     color: var(--text-secondary);
     max-width: 520px;
-    margin: 0 auto 44px;
+    margin: 0 auto 48px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.7;
+    animation: reveal 0.6s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
   }
 
   .hero-sub strong {
-    color: var(--text-primary);
+    color: var(--accent);
     font-weight: 600;
   }
 
@@ -142,42 +216,61 @@
   .stats-row {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 14px;
     flex-wrap: wrap;
     position: relative;
+    animation: reveal 0.6s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
   }
 
   .stat-card {
     background: var(--surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 16px 28px;
+    border-radius: var(--radius);
+    padding: 18px 30px;
     text-align: center;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.25s ease;
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
     min-width: 130px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(251,191,36,0.05) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.35s;
   }
 
   .stat-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
-    border-color: var(--border-strong);
+    border-color: var(--border-accent);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-3px);
   }
+
+  .stat-card:hover::before { opacity: 1; }
 
   .stat-num {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--accent);
     line-height: 1.2;
+    position: relative;
   }
 
   .stat-label {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--text-tertiary);
-    margin-top: 2px;
+    margin-top: 4px;
     font-weight: 500;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
   /* ===== CONTAINER ===== */
@@ -195,10 +288,11 @@
   }
 
   .roles-label {
+    font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     color: var(--text-tertiary);
     margin-bottom: 14px;
   }
@@ -215,8 +309,10 @@
 
   .role-chip {
     flex-shrink: 0;
-    padding: 10px 18px;
+    padding: 11px 20px;
     background: var(--surface);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid var(--border);
     border-radius: 10px;
     display: flex;
@@ -225,27 +321,26 @@
     font-size: 13px;
     font-weight: 500;
     color: var(--text-secondary);
-    box-shadow: var(--shadow-sm);
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
   }
 
   .role-chip:hover {
-    border-color: var(--accent-light);
-    box-shadow: var(--shadow-accent);
+    border-color: var(--border-accent);
+    box-shadow: var(--shadow-glow);
   }
 
   .role-chip.active {
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    color: #fff;
-    border-color: transparent;
+    background: linear-gradient(135deg, rgba(251,191,36,0.15), rgba(234,88,12,0.1));
+    color: var(--accent);
+    border-color: var(--border-accent);
     box-shadow: var(--shadow-accent);
   }
 
-  .role-chip.active .role-year { color: rgba(255,255,255,0.8); }
+  .role-chip.active .role-year { color: var(--accent-dim); }
 
   .role-year {
     font-family: 'JetBrains Mono', monospace;
-    color: var(--accent);
+    color: var(--accent-dim);
     font-weight: 600;
     font-size: 12px;
   }
@@ -253,16 +348,16 @@
   .role-arrow {
     flex-shrink: 0;
     padding: 0 10px;
-    color: var(--border-strong);
+    color: var(--text-tertiary);
     font-size: 14px;
   }
 
   .role-arrow svg {
     width: 20px;
     height: 20px;
-    stroke: var(--border-strong);
+    stroke: var(--text-tertiary);
     fill: none;
-    stroke-width: 2;
+    stroke-width: 1.5;
   }
 
   /* ===== TIMELINE ===== */
@@ -277,14 +372,13 @@
     left: 8px;
     top: 8px;
     bottom: 8px;
-    width: 1.5px;
-    background: linear-gradient(180deg, var(--accent-light), var(--border) 90%);
-    border-radius: 1px;
+    width: 1px;
+    background: linear-gradient(180deg, var(--accent-dim), var(--border) 80%, transparent);
   }
 
   .t-item {
     position: relative;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .t-item:last-child { margin-bottom: 0; }
@@ -297,9 +391,9 @@
     height: 17px;
     border-radius: 50%;
     background: var(--bg);
-    border: 2.5px solid var(--accent-light);
+    border: 2px solid var(--accent-dim);
     z-index: 2;
-    transition: all 0.3s ease;
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
   }
 
   .t-dot::after {
@@ -308,12 +402,12 @@
     inset: 3px;
     border-radius: 50%;
     background: transparent;
-    transition: background 0.3s;
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
   }
 
   .t-item:hover .t-dot {
     border-color: var(--accent);
-    box-shadow: 0 0 0 4px var(--accent-bg-strong);
+    box-shadow: 0 0 0 4px var(--accent-bg-strong), 0 0 16px rgba(251,191,36,0.15);
   }
 
   .t-item:hover .t-dot::after {
@@ -322,18 +416,36 @@
 
   .t-card {
     background: var(--surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border);
-    border-radius: 16px;
+    border-radius: var(--radius);
     padding: 24px 28px;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.3s ease;
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .t-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-accent), transparent);
+    opacity: 0;
+    transition: opacity 0.35s;
   }
 
   .t-card:hover {
     border-color: var(--border-strong);
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg), var(--shadow-glow);
+    transform: translateY(-2px);
+    background: var(--surface-hover);
   }
+
+  .t-card:hover::before { opacity: 1; }
 
   .t-header {
     display: flex;
@@ -350,45 +462,59 @@
     color: var(--accent);
     font-weight: 600;
     white-space: nowrap;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
   }
 
   .t-badge {
-    font-size: 11px;
-    padding: 3px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    padding: 4px 10px;
     border-radius: 6px;
     font-weight: 600;
     white-space: nowrap;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
   }
 
   .badge-keynote {
     background: var(--gold-bg);
     color: var(--gold);
+    border-color: rgba(251,191,36,0.15);
   }
 
   .badge-release {
     background: var(--green-bg);
     color: var(--green);
+    border-color: rgba(52,211,153,0.15);
   }
 
   .badge-panel {
     background: var(--purple-bg);
     color: var(--purple);
+    border-color: rgba(167,139,250,0.15);
   }
 
   .badge-media {
     background: var(--cyan-bg);
     color: var(--cyan);
+    border-color: rgba(34,211,238,0.15);
+  }
+
+  .badge-milestone {
+    background: rgba(251,113,133,0.1);
+    color: var(--rose);
+    border-color: rgba(251,113,133,0.15);
   }
 
   .t-title {
-    font-size: 17px;
+    font-family: 'Outfit', 'Noto Sans SC', sans-serif;
+    font-size: 18px;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 4px;
     letter-spacing: -0.3px;
-    line-height: 1.4;
+    line-height: 1.45;
   }
 
   .t-venue {
@@ -396,13 +522,14 @@
     color: var(--text-tertiary);
     margin-bottom: 14px;
     font-weight: 500;
+    letter-spacing: 0.01em;
   }
 
   .t-body {
     font-size: 14px;
     color: var(--text-secondary);
     margin-bottom: 14px;
-    line-height: 1.75;
+    line-height: 1.8;
   }
 
   .t-body ul {
@@ -421,15 +548,15 @@
 
   .t-quote {
     position: relative;
-    padding: 14px 18px;
-    background: var(--accent-bg);
-    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    background: rgba(251,191,36,0.04);
+    border-left: 2px solid var(--accent-dim);
     border-radius: 0 10px 10px 0;
     font-size: 13px;
     color: var(--text-secondary);
     font-style: italic;
     margin: 14px 0;
-    line-height: 1.7;
+    line-height: 1.75;
   }
 
   .t-data {
@@ -445,9 +572,10 @@
     gap: 5px;
     padding: 5px 12px;
     background: var(--green-bg);
+    border: 1px solid rgba(52,211,153,0.12);
     border-radius: 8px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 500;
     color: var(--green);
     letter-spacing: 0.01em;
@@ -463,42 +591,43 @@
   }
 
   .t-link {
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 500;
     color: var(--text-tertiary);
     text-decoration: none;
     padding: 4px 10px;
-    background: var(--surface-alt);
+    background: rgba(255,255,255,0.03);
     border: 1px solid var(--border);
     border-radius: 6px;
-    transition: all 0.2s;
+    transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
   }
 
   .t-link:hover {
     color: var(--accent);
-    border-color: var(--accent-light);
+    border-color: var(--border-accent);
     background: var(--accent-bg);
-    box-shadow: 0 0 0 3px var(--accent-bg);
+    box-shadow: 0 0 12px rgba(251,191,36,0.08);
   }
 
   /* ===== SECTIONS ===== */
   .section-title {
-    font-size: 13px;
-    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
     color: var(--text-tertiary);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 56px 0 20px;
+    letter-spacing: 0.12em;
+    margin: 64px 0 24px;
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
   }
 
   .section-title::after {
     content: '';
     flex: 1;
     height: 1px;
-    background: var(--border);
+    background: linear-gradient(90deg, var(--border-strong), transparent);
   }
 
   /* Achievements */
@@ -510,14 +639,23 @@
 
   .ach-card {
     background: var(--surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border);
-    border-radius: 14px;
+    border-radius: var(--radius);
     padding: 22px;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.3s;
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
     position: relative;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: reveal 0.6s ease forwards;
+    animation-delay: 0.1s;
   }
+
+  .ach-card:nth-child(2) { animation-delay: 0.15s; }
+  .ach-card:nth-child(3) { animation-delay: 0.2s; }
+  .ach-card:nth-child(4) { animation-delay: 0.25s; }
 
   .ach-card::before {
     content: '';
@@ -525,44 +663,46 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--gradient-end));
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.35s;
   }
 
   .ach-card:hover {
     border-color: var(--border-strong);
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    box-shadow: var(--shadow-md), var(--shadow-glow);
+    transform: translateY(-3px);
   }
 
   .ach-card:hover::before { opacity: 1; }
 
   .ach-icon {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     background: var(--accent-bg);
+    border: 1px solid rgba(251,191,36,0.1);
   }
 
   .ach-title {
+    font-family: 'Outfit', 'Noto Sans SC', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     letter-spacing: -0.2px;
   }
 
   .ach-desc {
     font-size: 13px;
     color: var(--text-tertiary);
-    line-height: 1.6;
+    line-height: 1.65;
   }
 
   .ach-num {
@@ -575,9 +715,10 @@
     color: var(--accent);
     text-decoration: none;
     font-weight: 500;
+    transition: color 0.2s;
   }
 
-  .ach-desc a:hover { text-decoration: underline; }
+  .ach-desc a:hover { color: var(--accent-light); text-decoration: underline; }
 
   /* Tech Evolution */
   .evo-track {
@@ -587,10 +728,15 @@
     flex-wrap: wrap;
     padding: 24px;
     background: var(--surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border);
-    border-radius: 16px;
-    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius);
     row-gap: 12px;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: reveal 0.6s ease forwards;
+    animation-delay: 0.15s;
   }
 
   .evo-node {
@@ -599,58 +745,88 @@
     font-size: 13px;
     font-weight: 600;
     line-height: 1.3;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    border: 1px solid transparent;
   }
 
   .evo-node:hover {
-    transform: scale(1.05);
+    transform: scale(1.06);
+    box-shadow: var(--shadow-glow);
   }
 
   .evo-node .yr {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 500;
-    opacity: 0.6;
+    opacity: 0.5;
     display: block;
-    margin-top: 2px;
+    margin-top: 3px;
   }
 
   .evo-arrow {
     padding: 0 6px;
-    color: var(--border-strong);
-    font-size: 16px;
+    color: var(--text-tertiary);
+    font-size: 14px;
+    opacity: 0.4;
   }
 
   /* Footer */
   .footer {
     text-align: center;
-    padding: 40px 24px;
+    padding: 48px 24px;
     font-size: 12px;
     color: var(--text-tertiary);
     border-top: 1px solid var(--border);
+    position: relative;
+  }
+
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-accent), transparent);
   }
 
   .footer a {
     color: var(--accent);
     text-decoration: none;
     font-weight: 500;
+    transition: color 0.2s;
   }
 
-  .footer a:hover { text-decoration: underline; }
+  .footer a:hover { color: var(--accent-light); text-decoration: underline; }
 
   /* Responsive */
   @media (max-width: 640px) {
-    .hero { padding: 48px 16px 36px; }
+    .hero { padding: 56px 16px 40px; }
+    .hero h1 { letter-spacing: -1.5px; }
     .stats-row { gap: 8px; }
-    .stat-card { padding: 12px 18px; min-width: 100px; }
-    .stat-num { font-size: 22px; }
+    .stat-card { padding: 14px 20px; min-width: 100px; }
+    .stat-num { font-size: 24px; }
     .container { padding: 0 16px 60px; }
     .timeline { padding-left: 30px; }
-    .t-card { padding: 18px; }
-    .t-title { font-size: 15px; }
+    .t-card { padding: 18px 20px; }
+    .t-title { font-size: 16px; }
     .evo-track { padding: 16px; }
     .evo-node { padding: 8px 12px; font-size: 12px; }
+    .role-chip { padding: 9px 14px; font-size: 12px; }
   }
+
+  /* Selection color */
+  ::selection {
+    background: rgba(251,191,36,0.25);
+    color: var(--text-primary);
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent-dim); }
 </style>
 </head>
 <body>
@@ -666,7 +842,7 @@
   <p class="hero-sub"><strong>滴滴能源 CTO</strong><br>公开演讲、发言与媒体报道汇总（2020 &ndash; 2025）</p>
   <div class="stats-row">
     <div class="stat-card">
-      <div class="stat-num">10</div>
+      <div class="stat-num">12</div>
       <div class="stat-label">公开发言</div>
     </div>
     <div class="stat-card">
@@ -678,7 +854,7 @@
       <div class="stat-label">已授权</div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">40+</div>
+      <div class="stat-num">50+</div>
       <div class="stat-label">报道来源</div>
     </div>
   </div>
@@ -784,6 +960,8 @@
           <a class="t-link" href="https://news.qq.com/rain/a/20230907A05VPA00" target="_blank">腾讯新闻</a>
           <a class="t-link" href="https://zhuanlan.zhihu.com/p/654830787" target="_blank">知乎专栏</a>
           <a class="t-link" href="https://tech.sina.cn/2023-09-07/detail-imzkvxmn3643195.d.html" target="_blank">新浪科技</a>
+          <a class="t-link" href="https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=59*CD7u7TVpcNSUZYiZzf-liTZn0YpCnx2KNKW2NcB2zoIpjBDZxxmPTbDUrg1Mw0awrQknVxdnfmr7QIQ5DPfmaW*9D59M54YAK8GYTxwCwVc-jma1FswJKuS8cya0v&new=1" target="_blank">运营商财经网(微信)</a>
+          <a class="t-link" href="https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=CDZlyf2bYKp81H9JVCGS3fxc3Iw-HrWwMAR7-3ZHp5FzpG-Udr53nqEr2TgO0yE7D2zlO-HEpB5iRNFeaa1-lqhAQxhavA9hZLrJuXiddueilBHkXiNnmvrYQjaS8lSM&new=1" target="_blank">充换电展(微信)</a>
         </div>
       </div>
     </div>
@@ -822,6 +1000,9 @@
           <a class="t-link" href="https://chd.in-en.com/html/chd-2430196.shtml" target="_blank">国际充换电网</a>
           <a class="t-link" href="http://m.cnwest.com/qczx/a/2023/09/14/21883541.html" target="_blank">西部网</a>
           <a class="t-link" href="http://chezhuangw.com/sys-nd/1432.html" target="_blank">车桩能源网</a>
+          <a class="t-link" href="https://i-newcar.com/index.php?m=home&c=View&a=index&aid=1151" target="_blank">牛喀网</a>
+          <a class="t-link" href="https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=uQsX7UwzES5eZ7*iDrucIBaaNrlTgDsc7-CexSfBwFMhQJNUVn49hi5bOvFD-aMtdwUnxlS08f9w88AxfzAWP7J3N7Er3Me7IlHRqKNOyosvcfhb2pyfaoNNjHQkuQd7&new=1" target="_blank">充电桩资源(微信)</a>
+          <a class="t-link" href="https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=IdZ7TC28lj3Fb1fkyFyTIOqEqBYIyQrzknFiVYFSRVejwHx20pKgf*O-AJZprDB-0MXpqoKmex2I2hNEEP9BAstraiHL2lQ*nn12avELiYl2z0*lhNHeb8grxN-cu8eg&new=1" target="_blank">充换电展(微信)</a>
         </div>
       </div>
     </div>
@@ -847,6 +1028,8 @@
           <span class="t-data-chip">覆盖智能充电全链路</span>
         </div>
         <div class="t-links">
+          <a class="t-link" href="http://finance.people.com.cn/n1/2024/0523/c1004-40242131.html" target="_blank">人民网</a>
+          <a class="t-link" href="https://tech.cnr.cn/techph/20240524/t20240524_526716765.shtml" target="_blank">央广网</a>
           <a class="t-link" href="https://chd.in-en.com/html/chd-2444039.shtml" target="_blank">国际充换电网</a>
           <a class="t-link" href="https://auto.zol.com.cn/874/8741712.html" target="_blank">中关村在线</a>
           <a class="t-link" href="http://suvqc.com.cn/hye/283322.html" target="_blank">SUV汽车网</a>
@@ -875,6 +1058,7 @@
         <div class="t-links">
           <a class="t-link" href="https://finance.sina.com.cn/jjxw/2024-08-03/doc-inchicsp3203913.shtml" target="_blank">新浪财经</a>
           <a class="t-link" href="http://dianzibao.cb.com.cn/images/2024-08/05/27/2565C07B.pdf" target="_blank">中国经营报 PDF</a>
+          <a class="t-link" href="https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=D0DkJaxcT0hzgNYk3NRi3ZR*uCfqkTGJkwspIpsozRe5EM2n5o0GnZ30bmZZ9K*vISWYQQTL7u7yeGCLuznPRxWZbfbeqJR5xAp*wjjGuqAvBoNsP6e7f-bz-JASYAx4&new=1" target="_blank">中经微能源(微信)</a>
         </div>
       </div>
     </div>
@@ -890,7 +1074,7 @@
           </div>
           <span class="t-badge badge-keynote">主题演讲</span>
         </div>
-        <div class="t-venue">2024 中国汽车充换电生态大会（国家能源局、发改委、交通部等出席）</div>
+        <div class="t-venue">2024 中国汽车充换电生态大会 &middot; 山西太原（国家能源局、发改委、交通部等出席）</div>
         <div class="t-body">
           报道量最大的一次演讲。系统阐述充换电网升级为虚拟电厂的路径，公开车网互动三大关键技术：
           <ul>
@@ -910,12 +1094,16 @@
           "在中国能源转型的背景下，车网互动、需求侧响应和虚拟电厂是新型电力系统的重要组成部分。"
         </div>
         <div class="t-links">
+          <a class="t-link" href="http://finance.ce.cn/stock/gsgdbd/202411/22/t20241122_39212397.shtml" target="_blank">中国经济网</a>
+          <a class="t-link" href="https://www.sohu.com/a/829424068_120205076" target="_blank">中国能源报</a>
           <a class="t-link" href="https://g.pconline.com.cn/x/1844/18448110.html" target="_blank">太平洋科技</a>
           <a class="t-link" href="http://www.52hrtt.com/mobileview/news/F1731047311721.html" target="_blank">中新经纬</a>
           <a class="t-link" href="https://www.inengyuan.com/qiye/13960.html" target="_blank">能源杂志</a>
+          <a class="t-link" href="https://www.nengapp.com/m/zixun/72b486449bcafb4cf6cee278329e4e14" target="_blank">能见</a>
           <a class="t-link" href="https://www.pai.com.cn/p/01jdestk38s2rvdy2cpj6f852d" target="_blank">电商派</a>
           <a class="t-link" href="https://chd.in-en.com/html/chd-2448538.shtml" target="_blank">国际充换电网</a>
           <a class="t-link" href="https://i.ifeng.com/c/8eijyqnSVEi" target="_blank">凤凰网</a>
+          <a class="t-link" href="https://www.chnfund.com/article/ARc970a365-5c88-4130-53a2-3a161ce3bca9" target="_blank">中国基金报</a>
         </div>
       </div>
     </div>
@@ -949,28 +1137,6 @@
       <div class="t-card">
         <div class="t-header">
           <div>
-            <div class="t-date">2025</div>
-            <div class="t-title">以智能运维技术为核心，构建本地化运维服务生态</div>
-          </div>
-          <span class="t-badge badge-keynote">主题演讲</span>
-        </div>
-        <div class="t-venue">中国汽车充换电生态大会 &middot; 主题论坛</div>
-        <div class="t-body">
-          分享小桔充电智能运维技术的探索过程，以及如何将技术转化为产品，为生态伙伴赋能。强调国家政策推动充电基础设施向高质量发展，但行业面临用户充电难题、商户运维成本高等挑战。
-        </div>
-        <div class="t-links">
-          <a class="t-link" href="https://3cst.cn/Information/info/nPmF5r6ssoA211ea8d6300163e0473d8" target="_blank">3CST</a>
-          <a class="t-link" href="https://m.yoojia.com/article/10549317553408653574.html" target="_blank">有驾</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- #10 -->
-    <div class="t-item">
-      <div class="t-dot"></div>
-      <div class="t-card">
-        <div class="t-header">
-          <div>
             <div class="t-date">2025.07.12</div>
             <div class="t-title">小桔充电智能运维平台发布</div>
           </div>
@@ -989,6 +1155,99 @@
           <a class="t-link" href="https://www.inengyuan.com/qiye/14840.html" target="_blank">能源杂志</a>
           <a class="t-link" href="https://www.pai.com.cn/p/01k0ebd0fd0efmfy8f8zshtke1" target="_blank">电商派</a>
           <a class="t-link" href="https://tech.cnr.cn/techgd/20250718/t20250718_527270225.shtml" target="_blank">央广网</a>
+          <a class="t-link" href="https://chd.in-en.com/html/chd-2453285.shtml" target="_blank">国际充换电网</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- #10 -->
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-header">
+          <div>
+            <div class="t-date">2025.09</div>
+            <div class="t-title">与星源博锐成立"智能运维"联合实验室 &amp; Orange Unicorn 2.0 发布</div>
+          </div>
+          <span class="t-badge badge-release">产品发布</span>
+        </div>
+        <div class="t-venue">深圳 &middot; 联合签约仪式</div>
+        <div class="t-body">
+          携手星源博锐在深圳成立新能源汽车产业充换电网络基础设施"智能运维"联合实验室，将智能运维技术深入到"模块级"。同步发布 Orange Unicorn 2.0 智能充电解决方案，原生支持全矩阵 CPR 和高效率模块。打造"3+X"智能桩关键能力（安全防护、智能运维、车网互动 + 用户体验），约 20 万充电设备完成智能化升级。
+        </div>
+        <div class="t-quote">
+          "'全面推进智能化'一直是我们坚守的技术路线。"
+        </div>
+        <div class="t-data">
+          <span class="t-data-chip">~20 万设备完成智能化升级</span>
+          <span class="t-data-chip">模块级智能运维</span>
+          <span class="t-data-chip">Orange Unicorn 2.0</span>
+        </div>
+        <div class="t-links">
+          <a class="t-link" href="https://chd.in-en.com/html/chd-2454615.shtml" target="_blank">国际充换电网</a>
+          <a class="t-link" href="https://www.pai.com.cn/p/01k0ebd0fd0efmfy8f8zshtke1" target="_blank">电商派</a>
+          <a class="t-link" href="https://www.donews.com/news/detail/4/6093947.html" target="_blank">DoNews</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- #11 -->
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-header">
+          <div>
+            <div class="t-date">2025.09.28</div>
+            <div class="t-title">以智能运维技术为核心，构建本地化运维服务生态</div>
+          </div>
+          <span class="t-badge badge-keynote">主题演讲</span>
+        </div>
+        <div class="t-venue">2025 中国汽车充换电生态大会 &middot; 合肥（国家能源局、中汽协指导）</div>
+        <div class="t-body">
+          分享小桔充电智能运维技术的探索过程，以及如何将技术转化为产品，为生态伙伴赋能。强调国家政策推动充电基础设施向高质量发展，但行业面临用户充电难题、商户运维成本高等挑战。
+        </div>
+        <div class="t-links">
+          <a class="t-link" href="https://www.evcipa.org.cn/newsinfo/8721554.html" target="_blank">充电联盟</a>
+          <a class="t-link" href="http://m.zqrb.cn/huiyihuodong/2025-09-30/A1759216089048.html" target="_blank">证券日报</a>
+          <a class="t-link" href="https://www.stdaily.com/web/gdxw/2025-09/30/content_410302.html" target="_blank">科技日报</a>
+          <a class="t-link" href="http://guoqing.china.com.cn/2025-10/09/content_118116361.shtml" target="_blank">中国网</a>
+          <a class="t-link" href="https://finance.ifeng.com/c/8n1ats8Mk6R" target="_blank">凤凰网</a>
+          <a class="t-link" href="https://3cst.cn/Information/info/nPmF5r6ssoA211ea8d6300163e0473d8" target="_blank">3CST</a>
+          <a class="t-link" href="https://m.yoojia.com/article/10549317553408653574.html" target="_blank">有驾</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- #12 -->
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-header">
+          <div>
+            <div class="t-date">2025.11.25</div>
+            <div class="t-title">小桔充电更名"滴滴充电"，品牌全面升级</div>
+          </div>
+          <span class="t-badge badge-milestone">品牌升级</span>
+        </div>
+        <div class="t-venue">2025 年度合作伙伴大会 &middot; 深圳</div>
+        <div class="t-body">
+          小桔充电正式更名为"滴滴充电"，启用新品牌标语"10 个电车车主 7 个滴滴充电"，从"好找、好充、好快、好安全"四个维度全面升级用户体验。人民网、新浪财经、证券时报等数十家媒体报道。
+        </div>
+        <div class="t-data">
+          <span class="t-data-chip">覆盖 270+ 城市</span>
+          <span class="t-data-chip">62,000+ 座充电站</span>
+          <span class="t-data-chip">在线快充枪超 26 万把</span>
+          <span class="t-data-chip">合作商户 11,000+</span>
+          <span class="t-data-chip">碳减排约 1,700 万吨</span>
+        </div>
+        <div class="t-links">
+          <a class="t-link" href="http://finance.people.com.cn/n1/2025/1125/c1004-40611334.html" target="_blank">人民网</a>
+          <a class="t-link" href="http://jjckb.xinhuanet.com/20251125/05f94d68aa274c7ea393372333652cf8/c.html" target="_blank">经济参考报</a>
+          <a class="t-link" href="https://finance.sina.com.cn/roll/2025-11-25/doc-infyrfaa3005747.shtml" target="_blank">新浪财经</a>
+          <a class="t-link" href="https://www.stcn.com/article/detail/3511260.html" target="_blank">证券时报</a>
+          <a class="t-link" href="http://www.eeo.com.cn/2025/1125/769036.shtml" target="_blank">经济观察网</a>
+          <a class="t-link" href="https://www.guancha.cn/economy/2025_11_25_798231.shtml" target="_blank">观察者网</a>
+          <a class="t-link" href="https://view.inews.qq.com/a/20251126A0543600" target="_blank">南方都市报</a>
         </div>
       </div>
     </div>
@@ -1023,7 +1282,7 @@
       <div class="ach-icon">&#x1F3E2;</div>
       <div class="ach-title">所属业务</div>
       <div class="ach-desc">
-        小桔能源（滴滴旗下），业务覆盖智慧充电、虚拟电厂、电力交易、电力辅助服务、光储充，服务 190+ 城市、累计充电超 6.8 亿次。
+        滴滴充电（原小桔充电，滴滴旗下），业务覆盖智慧充电、虚拟电厂、电力交易、电力辅助服务、光储充，服务 270+ 城市、62,000+ 座充电站、在线快充枪超 26 万把，累计碳减排约 1,700 万吨。
       </div>
     </div>
   </div>
@@ -1054,12 +1313,16 @@
     <div class="evo-node" style="background: var(--cyan-bg); color: var(--cyan);">
       智能运维平台<span class="yr">2025.07</span>
     </div>
+    <div class="evo-arrow">&rarr;</div>
+    <div class="evo-node" style="background: rgba(190,18,60,0.08); color: var(--rose);">
+      品牌升级 &middot; 滴滴充电<span class="yr">2025.11</span>
+    </div>
   </div>
 
 </div>
 
 <footer class="footer">
-  数据来源：公开网络搜索（Tavily API），截止 2026 年 4 月 &middot; 仅收录公开可查的演讲、发言与媒体报道<br>
+  数据来源：公开网络搜索（Tavily API），截止 2026 年 5 月 &middot; 仅收录公开可查的演讲、发言与媒体报道<br>
   <a href="https://cn.linkedin.com/in/lanxin" target="_blank">LinkedIn</a>
 </footer>
 
