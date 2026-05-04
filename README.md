@@ -70,23 +70,31 @@
 
 - 纯静态 HTML，无需构建工具，浏览器直接打开即可
 - 响应式设计，适配桌面与移动端
-- 现代 UI 风格：网格背景、渐变色、卡片悬停动效
-- 使用 Inter + JetBrains Mono 字体
+- 暗色主题，琥珀/金色点缀的 "Electric Archive" 视觉风格
+- 使用 Outfit + Noto Sans SC + JetBrains Mono 字体组合
+- glassmorphism 卡片、噪点纹理、滚动触发动画
 - 所有报道均附原文链接，可溯源验证
 
-## 使用方式
+## 在线访问
+
+[https://git-s.oss-cn-hongkong.aliyuncs.com/index.html](https://git-s.oss-cn-hongkong.aliyuncs.com/index.html)
+
+推送到 `main` 分支后由 GitHub Actions 自动部署至阿里云 OSS。
+
+## 本地使用
 
 ```bash
-# 克隆仓库
 git clone git@github.com:lansine/my.git
-
-# 直接在浏览器中打开
 open liao-lanxin-timeline.html
 ```
 
 ## 数据来源
 
 所有内容来自公开网络搜索（Tavily API），仅收录公开可查的演讲、发言与媒体报道，截至 2026 年 5 月。
+
+## License
+
+MIT
 
 ## 联系方式
 
