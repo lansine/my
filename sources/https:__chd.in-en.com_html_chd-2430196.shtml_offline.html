@@ -1,0 +1,883 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>小桔充电首次公开充电桩关键技术，并发布智能运维白皮书-充电桩--国际充换电网</title>
+    <meta name="keywords" content="小桔充电首次公开充电桩关键技术，并发布智能运维白皮书,新能源汽车,充电桩,电动汽车,国际充换电网"/>
+    <meta name="description" content="小桔充电首次公开充电桩关键技术，并发布智能运维白皮书,近日，小桔能源CTO廖兰新受邀参加第三届电动汽车充换电设施技术创新大会，分享了该公司在充电桩智能化升级中的实战经验。“挖掘数据和算法的潜力，带来的价值杠...,国际充换电网"/>
+        <meta http-equiv="mobile-agent" content="format=xhtml; url=https://mchd.in-en.com/html/chd-2430196.shtml">
+    <meta http-equiv="mobile-agent" content="format=html5; url=https://mchd.in-en.com/html/chd-2430196.shtml">
+        <base target="_blank" />
+    <link rel="stylesheet" href="https://gtimg.in-en.com/inencom/css/comment.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://gtimg.in-en.com/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="https://gtimg.in-en.com/favicon.ico"/>
+        <script type="text/javascript">window.onerror=function(){return true;}</script>    <script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/config.js"></script>
+    <script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/common.js"></script>
+    <script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/sidenav.js"></script>
+                <script type="text/javascript">
+                    GoMobile('https://mchd.in-en.com/html/chd-2430196.shtml');
+                var searchid = 39;
+            </script>
+    <link rel="stylesheet" href="https://gtimg.in-en.com/inencom/css/base.css">
+    <link rel="stylesheet" href="https://gtimg.in-en.com/inencom/css/detail.css">
+    <link rel="stylesheet" href="https://gtimg.in-en.com/inencom/chd/css/top.css">
+</head>
+<body>
+<div class="header fix">
+    <div class="headerLeft fl">
+        <div class="logo logo1 fl">
+            <h1>
+                <a href="https://chd.in-en.com/" title="国际充换电网-充换电行业专业门户网站">国际充换电网-充换电行业专业门户网站</a>
+            </h1>
+        </div>
+        <ul class="mainNav fix fl">
+            <li class="toggleIndus">    <a class="togTit"><img src="https://gtimg.in-en.com/images/tog.png" alt="">切换行业</a>    <ul class="togSubNav">        <li><a target="_blank" href="https://www.in-en.com/">国际能源网</a></li>        <li><a target="_blank" href="https://newenergy.in-en.com/">国际新能源网</a></li>        <li><a target="_blank" href="https://solar.in-en.com/">国际太阳能光伏网</a></li>        <li><a target="_blank" href="https://power.in-en.com/">国际电力网</a></li>        <li><a target="_blank" href="https://wind.in-en.com/">国际风电网</a></li>        <li><a target="_blank" href="https://chuneng.in-en.com/">国际储能网</a></li>        <li><a target="_blank" href="https://huanbao.in-en.com/">国际节能环保网</a></li>        <li><a target="_blank" href="https://coal.in-en.com/">国际煤炭网</a></li>        <li><a target="_blank" href="https://oil.in-en.com/">国际石油网</a></li>        <li><a target="_blank" href="https://gas.in-en.com/">国际燃气网</a></li>        <li><a target="_blank" href="https://h2.in-en.com/">国际氢能网</a></li>        <li><a target="_blank" href="https://chd.in-en.com/">国际充换电网</a></li>        <li><a target="_blank" href="https://b2b.in-en.com/">能源商城</a></li>        <li><a target="_blank" href="https://live.in-en.com/">能直播</a></li>        <li><a target="_blank" href="https://ke.in-en.com/">能课堂</a></li>        <li><a target="_blank" href="https://qun.in-en.com/">能源商圈</a></li>        <li><a target="_blank" href="https://expo.in-en.com/">能源会展</a></li>    </ul></li>            <li><a href="https://chd.in-en.com/">首页</a></li>
+            <li><a href="https://chd.in-en.com/ChargingStation/">充电桩</a></li>
+            <li><a href="https://chd.in-en.com/chongdianzhan/">充电站</a></li>
+            <li><a href="https://chd.in-en.com/huandian/">换电站</a></li>
+            <li><a href="https://chd.in-en.com/battery/">电动车电池</a></li>
+            <li><a href="https://chd.in-en.com/networking/">车联网技术</a></li>
+            <li class="nav-more">
+                <a class="more-icon" target="_blank">
+                    <i class="box box-t"></i>
+                    <i class="box box-b"></i>
+                </a>
+                <ul class="sub-nav">
+                    <li><a href="https://chd.in-en.com/NEV/">新能源汽车</a></li>
+                    <li><a href="https://chd.in-en.com/caijing/">充换电财经</a></li>
+                    <li><a href="https://chd.in-en.com/cardata/">新能源汽车统计</a></li>
+                    <li><a href="https://chd.in-en.com/policy/">行业政策法规</a></li>
+                    <li><a href="https://chd.in-en.com/Carcharacters/">行业人物</a></li>
+                    <li><a href="https://chd.in-en.com/Carproject/">新能源汽车项目</a></li>
+                    <li><a href="https://chd.in-en.com/car/">新能源汽车要闻</a></li>
+                    <li><a href="https://chd.in-en.com/Tech/">新能源汽车技术</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="headerRight fr">
+        <div class="search-con fr">
+    <div class="searchBox fl">
+        <div class="mod_select">
+            <div class="select_box">
+                <span class="select_txt">资讯</span>
+                <ul class="option">
+                    <li>资讯</li>
+                    <li>产品</li>
+                    <li>求购</li>
+                    <li>公司</li>
+                    <li>行情</li>
+                    <li>统计</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sobox">
+            <ul id="con_search_4" style="display: block;">
+                <li><input class="inputs" name="search4" type="text" id="search_4" value="请输入文章标题或关键词" onBlur=" if(this.value==''){this.value='请输入文章标题或关键词'}" onFocus="if(this.value=='请输入文章标题或关键词'){this.value=''}"  placeholder="请输入文章标题或关键词"></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',4)"></li>
+            </ul>
+            <ul id="con_search_1" style="display: none;">
+                <li><input class="inputs" name="search1" type="text" id="search_1" value="请输入产品名称或关键词" onBlur=" if(this.value==''){this.value='请输入产品名称或关键词'}" onFocus="if(this.value=='请输入产品名称或关键词'){this.value=''}" placeholder="请输入产品名称或关键词" ></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',1)"></li>
+            </ul>
+            <ul id="con_search_2" style="display: none;">
+                <li><input class="inputs" name="search2" type="text" id="search_2" value="请输入求购名称或关键词" onBlur=" if(this.value==''){this.value='请输入求购名称或关键词'}" onFocus="if(this.value=='请输入求购名称或关键词'){this.value=''}" placeholder="请输入求购名称或关键词" ></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',2)"></li>
+            </ul>
+            <ul id="con_search_3" style="display: none;">
+                <li><input class="inputs" name="search3" type="text" id="search_3" value="请输入公司名称或关键词" onBlur=" if(this.value==''){this.value='请输入公司名称或关键词'}" onFocus="if(this.value=='请输入公司名称或关键词'){this.value=''}" placeholder="请输入公司名称或关键词" ></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',3)"></li>
+            </ul>
+            <ul id="con_search_5" style="display: none;">
+                <li><input class="inputs" name="search5" type="text" id="search_5" value="请输入行情或关键词" onBlur=" if(this.value==''){this.value='请输入行情或关键词'}" onFocus="if(this.value=='请输入行情或关键词'){this.value=''}"  placeholder="请输入行情或关键词"></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',5)"></li>
+            </ul>
+            <ul id="con_search_6" style="display: none;">
+                <li><input class="inputs" name="search6" type="text" id="search_6" value="请输入统计名称或关键词" onBlur=" if(this.value==''){this.value='请输入统计名称或关键词'}" onFocus="if(this.value=='请输入统计名称或关键词'){this.value=''}"  placeholder="请输入统计名称或关键词"></li>
+                <li><input class="sosub" name="" type="button" onClick="SearchKeyword('search',6)"></li>
+            </ul>
+        </div>
+    </div>
+</div>        <div class="loginBtn1 fr">
+            <div class="fl" id="MyCms_member"></div>
+            <div class="otherLink fr">
+                <a href="https://www.in-en.com/">站内导航</a>
+                <ul class="sub-fastnav">
+                    <li><a target="_blank" href="https://www.in-en.com/">国际能源网</a></li>
+                    <li><a target="_blank" href="https://newenergy.in-en.com/">国际新能源网</a></li>
+                    <li><a target="_blank" href="https://solar.in-en.com/">国际太阳能光伏网</a></li>
+                    <li><a target="_blank" href="https://power.in-en.com/">国际电力网</a></li>
+                    <li><a target="_blank" href="https://wind.in-en.com/">国际风电网</a></li>
+                    <li><a target="_blank" href="https://chuneng.in-en.com/">国际储能网</a></li>
+                    <li><a target="_blank" href="https://h2.in-en.com/">国际氢能网</a></li>
+                    <li><a target="_blank" href="https://chd.in-en.com/">国际充换电网</a></li>
+                    <li><a target="_blank" href="https://huanbao.in-en.com/">国际节能环保网</a></li>
+                    <li><a target="_blank" href="https://coal.in-en.com/">国际煤炭网</a></li>
+                    <li><a target="_blank" href="https://oil.in-en.com/">国际石油网</a></li>
+                    <li><a target="_blank" href="https://gas.in-en.com/">国际燃气网</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="abox content">
+    <div style="margin-bottom: 5px;">
+        <script type="text/javascript" src="https://www.in-en.com/comm_js/A20.js"></script>
+    </div>
+    <div style="margin-bottom: 5px;">
+        <script type="text/javascript" src="https://www.in-en.com/comm_js/A21.js"></script>
+    </div>
+<!--    <div style="margin-bottom: 5px;">-->
+<!--        <script type="text/javascript" src="https://www.in-en.com/comm_js/A366.js"></script>-->
+<!--    </div>-->
+    <div style="margin-bottom: 5px;">
+        <script type="text/javascript" src="https://www.in-en.com/comm_js/A446.js"></script>
+    </div>
+<!--    <div style="margin-bottom: 5px;">-->
+<!--        <script type="text/javascript" src="https://www.in-en.com/comm_js/A388.js"></script>-->
+<!--    </div>-->
+</div>
+<!--广告TOP-->
+<!--当前位置-->
+<div class="curLocation content"><p>当前位置： <a href="https://chd.in-en.com/">充换电网</a> &raquo; <a href="https://chd.in-en.com/ChargingStation/">充电桩</a> &raquo; 正文</p></div>
+<!--主要内容部分-->
+<div class="content fix" style="display: flex;justify-content: space-between;">
+    <!--左侧内容    -->
+    <div class="leftBox fl">
+        <h1 id="title">小桔充电首次公开充电桩关键技术，并发布智能运维白皮书</h1>
+        <p class="source"><b>日期：2023-09-20</b>&nbsp;&nbsp;<b>&nbsp;&nbsp;来源：<a href="https://baijiahao.baidu.com/s?id=1777535278810023882&wfr=spider&for=pc" target="_blank">中国能源报</a></b>&nbsp;&nbsp;作者：仲新源</p>
+        <div id="MyCms_space"></div>       
+    <div class="fix">
+            <div class="LeftTool fl" style="padding-bottom: 10px;">
+                <div class="left-stick-wp" style="top: 0px;">
+                    <p class="className"><a href="https://chd.in-en.com/">国际充换电网</a></p>
+                    <div class="year through"><span>2023</span></div>
+                    <div class="md">09/20</div>
+                    <div class="time">16:35</div>
+                    <!--收藏-->
+                    <div class="collectNew"><a class="collect artFav"  title="加入收藏" onclick="Dfavor(39, 2430196);">收藏</a></div>
+<input type="hidden" id="favor_mid" value="39">
+<input type="hidden" id="favor_itemid" value="2430196"></input>
+<script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/showArticle.js"></script>                    <div class="mob_code_img"><img src="https://www.in-en.com/api/qrcode.png.php?auth=https://chd.in-en.com/html/chd-2430196.shtml" width="90" height="90" alt="文章二维码"><p class="code_text">手机扫码看资讯</p></div>
+                    <div class="share-title through" data-bossirs="share">
+    <span>分享</span>
+</div>
+<!-- 二维码 -->
+<div class="qrcode" style="display: none;">
+    <img src="https://www.in-en.com/api/qrcode.png.php?auth=https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml" width="140" height="140"/>
+    <div></div>
+</div>
+<!-- 二维码结束 -->
+<ul class="share" data-bosszone="share">
+    <li class="iconfont" onmouseover="$('.qrcode').hide();$('.qrcode div').html('请用微信扫一扫上面的二维码打开网址<br/>点右上方的分享按钮，选择发送给朋友');$('.qrcode').slideDown('fast');">
+    </li>
+    <li class="iconfont" onmouseover="$('.qrcode').hide();$('.qrcode div').html('请用微信扫一扫上面的二维码打开网址<br/>点右上方的分享按钮，选择分享到朋友圈');$('.qrcode').slideDown('fast');">
+    </li>
+    <li class="iconfont" onmouseover="$('.qrcode').hide();">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml&title=%E5%B0%8F%E6%A1%94%E5%85%85%E7%94%B5%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%85%85%E7%94%B5%E6%A1%A9%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%B9%B6%E5%8F%91%E5%B8%83%E6%99%BA%E8%83%BD%E8%BF%90%E7%BB%B4%E7%99%BD%E7%9A%AE%E4%B9%A6&desc=%E6%88%91%E5%9C%A8%E5%9B%BD%E9%99%85%E8%83%BD%E6%BA%90%E7%BD%91%E7%9C%8B%E5%88%B0%E7%9A%84" target="_blank" rel="external"></a>
+    </li>
+    <li class="iconfont" onmouseover="$('.qrcode').hide();">
+        <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml&title=%E5%B0%8F%E6%A1%94%E5%85%85%E7%94%B5%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%85%85%E7%94%B5%E6%A1%A9%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%B9%B6%E5%8F%91%E5%B8%83%E6%99%BA%E8%83%BD%E8%BF%90%E7%BB%B4%E7%99%BD%E7%9A%AE%E4%B9%A6&desc=%E6%88%91%E5%9C%A8%E5%9B%BD%E9%99%85%E8%83%BD%E6%BA%90%E7%BD%91%E7%9C%8B%E5%88%B0%E7%9A%84" target="_blank" rel="external"></a>
+    </li>
+    <li class="iconfont" onmouseover="$('.qrcode').hide();">
+        <a href="http://service.weibo.com/share/share.php?title=%E5%B0%8F%E6%A1%94%E5%85%85%E7%94%B5%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%85%85%E7%94%B5%E6%A1%A9%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%B9%B6%E5%8F%91%E5%B8%83%E6%99%BA%E8%83%BD%E8%BF%90%E7%BB%B4%E7%99%BD%E7%9A%AE%E4%B9%A6&url=https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml&pic=https%3A%2F%2Fimg.in-en.com%2Fupload%2F202309%2F20%2F16430560262109.png" target="_blank" rel="external"></a>
+    </li>
+</ul>                </div>
+            </div>
+            <div class="rightDetail fr">
+                                <p class="keyWords">
+                    关键词：
+                                        <a href="https://www.in-en.com/tag/%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6">新能源汽车</a>
+                                        <a href="https://www.in-en.com/tag/%E5%85%85%E7%94%B5%E6%A1%A9">充电桩</a>
+                                        <a href="https://www.in-en.com/tag/%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6">电动汽车</a>
+                                    </p>
+                                <div class="conTextBox">
+                    <div id="content">
+                                                       <div class="content" id="article"><p>近日，小桔能源CTO廖兰新受邀参加第三届<a href="http://www.in-en.com/keylist.php?q=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6" class="keylink" target="_blank">电动汽车</a>充换电设施技术创新大会，分享了该公司在<a href="http://www.in-en.com/keylist.php?q=%E5%85%85%E7%94%B5%E6%A1%A9" class="keylink" target="_blank">充电桩</a>智能化升级中的实战经验。</p><p>“挖掘数据和算法的潜力，带来的价值杠杆明显，帮助小桔充电在安全、体验、效率三方面实现了显著提升。可以说，智能化是推动充电桩升级的关键驱动力。”廖兰新说。</p><p>小桔能源旗下小桔充电首次公开的充电桩智能化关键技术，涵盖充电安全、可靠体验、智能运维、电力调度、智能引擎五大技术领域。</p><p><img src="https://img.in-en.com/upload/202309/20/16394398262109.png" title="" alt=""/></p><p style="text-align: center;">小桔能源CTO廖兰新首次公开了小桔充电充电桩智能化五大关键技术</p><p style="text-align: left;">廖兰新对充电桩的智能化升级充满信心，他指出，融合视觉计算的充电安全技术，将电池防护和烟火识别相结合，让防护更完整、预警更及时；供需双轮驱动的可靠体验技术，通过车桩兼容和车桩匹配，为用户提供充电全链路的可靠保障；基于知识推理的智能运维技术，实现运维全流程线上化，以及故障识别、诊断、处置三个环节智能化；利用运力弹性的电力调度技术，充分发挥滴滴在运力弹性的优势，实现了运力和电力统筹调度；云边端协同的智能引擎技术，打造了全新的数据架构和计算架构，是孵化充电桩智能化技术的基础设施。</p><p style="text-align: left;">小桔充电将充电桩智能化五大关键技术融入到一个技术架构中，称之为充电桩智能操作系统，并通过三层架构建立了多角色、多场景、全协同的智能化生态。其中，在设备互联层，实现设备采集信号和控制信号的信息互联；在数据智能层，充分挖掘数据与算法的潜力，发挥智能化的价值杠杆；在生态应用层，实现用户、商户、供应商等不同生态角色共创；最后，通过电气“管道”连接到电网，实现“比特”与“瓦特”的深度融合。<br/></p><p>在廖兰新看来，兼具能源互联、数据智能、生态共创三大特征的充电桩智能操作系统，将重新定义智能充电桩。</p><p><img src="https://img.in-en.com/upload/202309/20/16411869262109.png" title="" alt=""/></p><p style="text-align: center;">小桔充电充电桩智能操作系统架构图</p><p>9月6日，小桔充电在第四届中国国际充换电运营商大会上启动了“独角兽计划”，授权合作伙伴使用Orange Unicorn智能充电桩解决方案。该公司还在第三届电动汽车充换电设施技术创新大会上将核心模块Unicorn OS涉及的五大关键技术分享给全行业。小桔充电通过不同的技术分享方式给生态合作伙伴和充电行业带来智能化升级的驱动力。</p><p>此外，由中电联牵头、小桔充电参编的《电动汽车充电设施智能运维技术白皮书》（以下简称“智能运维白皮书”）也正式发布。其旨在通过智能化技术降低全流程运维成本，提升运维管理效率，助力构建高质量充电基础设施体系。小桔充电充电桩研发部负责人王静对智能运维白皮书进行了内容发布解读，阐述了支撑充电桩智能运维的各种技术，提出了智能运维推广建议。来自小桔充电的专家工程师潜金都、田彪，与同行们重点研讨了故障自动识别、故障智能诊断与处置、运维知识库的积累与管理等议题。</p><p><img src="https://img.in-en.com/upload/202309/20/16423074262109.png" title="" alt=""/></p><p style="text-align: center;">小桔充电充电桩研发部负责人王静发布智能运维白皮书</p><p style="text-align: left;">截至目前，小桔充电已提交国内外专利341件，其中113件已获授权，覆盖智能硬件、安全防护、充电体验、电力调度、智能运维等诸多充电桩关键技术领域。小桔充电通过公开充电桩智能化关键技术、发布和解读智能运维技术白皮书，进一步推动智能化技术普及与推广，为行业带来创新活力。</p></div>
+                                               </div>
+                                                            <div class="morelist">
+                        返回 <a target="_blank" href="https://chd.in-en.com/">国际充换电网</a> 首页
+                    </div>
+                    <!--二维码和声明-->
+                    <div class="news_ma fix">
+    <div class="txt fl">
+        <p>能源资讯一手掌握，关注 "<span>充换电头条</span>" 微信公众号</p>
+        <p>看资讯 / 读政策 / 找项目 / 推品牌 / 卖产品 / 招投标 / 招代理 / 发文章</p>
+    </div>
+    <div class="qr fr">
+        <p>扫码关注</p>
+    </div>
+</div>
+<!-- Baidu Share -->
+<div class="copyright"><p>免责声明：本文仅代表作者本人观点，与国际储能网无关，文章内容仅供参考。凡本网注明"来源：国际储能网"的作品，均为本站原创，转载请注明“来源：国际储能网”！凡本网注明“来源：XXX（非国际储能网）”的作品，均转载自其它媒体，转载目的在于传递更多信息，并不代表本网赞同其观点和对其真实性负责。</p>
+    <p>如因作品内容、版权和其它问题需要同本网联系的，请在相关内容刊发之日起30日内进行，我们将第一时间进行删除处理 。联系方式：400-8256-198</p>
+</div>
+<div class="tougao_con">
+</div>
+<div class="Share">
+</div>                </div>
+                <script type="text/javascript">var module_id= 39,item_id=2430196,content_id='content',img_max_width=1000;</script>
+                <script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/config.js"></script>
+<script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://gtimg.in-en.com/inencom/js/common.js"></script>
+<div id="comment_div">
+<div class="left_head" style="margin: 0;">
+<span class="fr">
+<a href="https://www.in-en.com/comment/index-htm-mid-39-itemid-2430196.html">共<span id="comment_count_len">0</span>条 [查看全部]</a>&nbsp;&nbsp;
+</span>
+<span style="border-bottom: 0 !important;font-weight: 100;">相关评论</span>
+        <input type="text" value="39" style="width: 100%;height: 30px;display: none;" id="comment_content ">
+</div>
+<div class="c_b" id="comment_main">
+<div id="MyCms_comment">
+<div class="stat">
+<table cellpadding="6" cellspacing="1" width="100%">
+<tr align="center">
+<td width="100">好评 <img src="https://gtimg.in-en.com/file/image/star3.gif" width="36" height="12" alt="" align="absmiddle"/> </td>
+<td><div class="stat_p"><div style="width:0%;"></div></div></td>
+<td class="stat_c" width="100">0%</td>
+<td class="stat_t" width="80" bgcolor="#E1F0FB">0</td>
+</tr>
+<tr align="center">
+<td>中评 <img src="https://gtimg.in-en.com/file/image/star2.gif" width="36" height="12" alt="" align="absmiddle"/></td>
+<td><div class="stat_p"><div style="width:0%;"></div></div></td>
+<td>0%</td>
+<td bgcolor="#F2F8FD">0</td>
+</tr>
+<tr align="center">
+<td>差评 <img src="https://gtimg.in-en.com/file/image/star1.gif" width="36" height="12" alt="" align="absmiddle"/></td>
+<td><div class="stat_p"><div style="width:0%;"></div></div></td>
+<td>0%</td>
+<td bgcolor="#F9FCFE">0</td>
+</tr>
+</table>
+</div>
+<a name="top"></a>
+<a name="last"></a>
+<iframe src="" name="send" id="send" style="display:none;" scrolling="no" frameborder="0"></iframe>
+<div class="comment_form">
+<form target="send" id="comment_form">
+<input type="hidden" name="mid" value="39"/>
+<input type="hidden" name="itemid" value="2430196"/>
+<input type="hidden" name="items" value="27572"/>
+<input type="hidden" name="page" value="1"/>
+<input type="hidden" name="qid" value="0" id="qid"/>
+<input type="hidden" name="submit" value="1"/>
+<table cellpadding="10" cellspacing="1" width="100%">
+<tr>
+<td id="qbox" style="display:none;" bgcolor="#F9FCFE"></td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="star" value="3" id="star_3" checked/><label for="star_3"> 好评 <img src="https://gtimg.in-en.com/file/image/star3.gif" width="36" height="12" alt="" align="absmiddle"/></label>
+<input type="radio" name="star" value="2" id="star_2"/><label for="star_2"> 中评 <img src="https://gtimg.in-en.com/file/image/star2.gif" width="36" height="12" alt="" align="absmiddle"/></label>
+<input type="radio" name="star" value="1" id="star_1"/><label for="star_1"> 差评 <img src="https://gtimg.in-en.com/file/image/star1.gif" width="36" height="12" alt="" align="absmiddle"/></label>
+</td>
+</tr>
+<tr>
+<td><textarea class="comment_area" onfocus="F();" onkeyup="S();" name="content" id="content_text" style="resize:none;"></textarea></td>
+</tr>
+<tr id="tr_captcha" style="display:none;">
+</tr>
+<tr>
+                        
+<td>
+&nbsp;<input type="image" src="https://img.in-en.com/static/skin/inencom/image/btn_comment.gif" align="absmiddle" onclick="return submitData();"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hidden" value="1"/> 匿名发表
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#666666;">(内容限2至500字)
+&nbsp;&nbsp;&nbsp;&nbsp;当前已经输入 <span style="color:red;" id="chars">0</span> 字
+</span>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<form method="post" action="https://www.in-en.com/guestbook/index.php" id="r_form" target="_blank">
+<input type="hidden" name="action" value="report"/>
+<input type="hidden" name="content" id="r_content" value=""/>
+</form>
+</div>
+<script type="text/javascript">
+var captchaStatus = '';
+function R(id) {
+                console.log(id);
+                
+Dd('r_content').value = '评论举报，评论ID:'+id+'\n评论内容:\n'+Dd('c_'+id).innerHTML+'\n--------------------------\n举报理由:\n';
+Dd('r_form').submit();
+}
+var v_id = 0;
+var v_op = 1;
+var v_nm = 0;
+function V(id, op, nm) {
+                console.log(id, op, nm);
+v_id = id;
+v_op = op;
+v_nm = nm;
+if(get_cookie('comment_vote_39_2430196_'+id)) {
+confirm('您已经对此评论表过态了');
+return;
+}
+$.ajax({
+url: 'https://chd.in-en.com/comment.php?action=vote&mid=39&itemid=2430196&cid='+id+'&op='+op,
+type: 'POST',
+dataType: 'json',
+success: function(data) {
+_V(data);
+}
+});
+}
+function _V(data) {
+if(data) {
+if(data == -2) {
+confirm('抱歉，您没有投票权限');
+} else if (data == -1) {
+confirm('您已经对此评论表过态了');
+} else if (data == 0) {
+alert('参数错误，如有疑问请联系管理员');
+} else if (data == 1) {
+if(v_op == 1) {
+Inner('v_'+v_id+'_1', ++v_nm);
+} else {
+Inner('v_'+v_id+'_0', ++v_nm);
+}
+}
+}
+}
+function Q(qid){
+Dd('qid').value = qid;
+Ds('qbox');
+Dd('qbox').innerHTML = '&nbsp;<strong>引用:</strong><div class="comment_title">'+Dd('i_'+qid).innerHTML+'</div><div class="comment_content">'+Dd('c_'+qid).innerHTML+'</div>';
+H();
+Dd('content_text').focus();
+}
+function S() {
+Inner('chars', Dd('content_text').value.length);
+}
+function C() {
+                var user_status = 3;
+                if(user_status == 1) {
+                    alert('您的会员组没有评论权限');
+                    return false;
+                }
+                if(user_status == 2) {
+                    if(confirm('您还没有登录,是否现在登录?')) {
+                        top.location = 'login.php?forward=https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml';
+                    }
+                    return false;
+                }
+                if($('#content_text').val().length < 2) {
+                    confirm('内容最少需要2字');
+                    $('#content_text').focus();
+                    return false;
+                }
+                if($('#content_text').val().length > 500) {
+                    confirm('内容最多500字');   
+                    $('#content_text').focus();
+                    return false;
+                }
+                if(!is_captcha(Dd('captcha').value)) {
+                    confirm('请填写验证码');
+                    Ds('tr_captcha');
+                    H();
+                    Dd('captcha').focus();
+                    return false;
+                }
+                return true;
+            }
+function F() {
+$('#tr_captcha').attr('style', 'display:block;');
+$('#tr_captcha').html(`<td><div class="comment_input">&nbsp;<span>*</span> 验证码：&nbsp;<input name="captcha" id="captcha" type="text" size="6" placeholder="验证码" class="input-captcha" title="请填写右侧图片上的数字和字母"/> &nbsp; <img src="https://www.in-en.com/api/captcha.php?action=image&refresh=2430196" title="看不清楚验证码?请点击刷新&#10;字母不区分大小写" alt="" align="absmiddle" id="captchapng" onclick="reloadcaptcha();" style="cursor:pointer;"/><span id="ccaptcha"></span></div></td>`);
+$('#captcha').bind('keyup blur', function() {
+s = $.trim($('#captcha').val());
+if(!is_captcha(s)) return;
+$.post(AJPath, 'action=captcha&captcha='+s,
+function(data) {
+if(data == '0') {
+captchaStatus = 'success';
+Dd('ccaptcha').innerHTML = '&nbsp;&nbsp;<img src="https://gtimg.in-en.com/image/check-ok.png" align="absmiddle"/>';
+} else {
+captchaStatus = 'error';
+Dd('captcha').focus();
+Dd('ccaptcha').innerHTML = '&nbsp;&nbsp;<img src="https://gtimg.in-en.com/file/image/check-ko.png" align="absmiddle"/>';
+}
+}
+);
+});
+H();
+}
+try{document.getElementById('comment_count').innerHTML = 0;}catch(e){}
+let resizeTimer;
+function H() {
+// 调整评论区域高度
+clearTimeout(resizeTimer); // 清除之前的定时器
+resizeTimer = setTimeout(function() {
+var currentContentHeight = document.getElementById('MyCms_comment').scrollHeight;
+// 调整评论容器高度
+document.getElementById('comment_main').style.minHeight = currentContentHeight + 'px';
+}, 50);
+}
+H();
+            function submitData() {
+                    if(C()) {
+if(captchaStatus == 'success'){
+                    $.ajax({
+url: 'https://chd.in-en.com/comment.php',
+                        type: 'post',
+                        data: $('#comment_form').serialize(),
+dataType:'json',
+                        success: function(response) {
+if(response.code == '200') {
+alert(response.message);
+setTimeout(function() {
+location.reload();
+}, 1000);
+$('#comment_count').text(response.data.commentNum);
+} else {
+alert(response.message);
+}
+                        }
+                    });
+}else{
+alert('请填写正确的验证码');
+return false;
+}
+                    }
+            }
+function reloadcaptcha() {
+Dd('captchapng').src = 'https://www.in-en.com/api/captcha.php?action=image&refresh='+Math.random();
+Dd('ccaptcha').innerHTML = '';
+Dd('captcha').value = '';
+}
+function is_captcha(v) {
+if(v.match(/^[a-z0-9A-Z]{1,}$/)) {
+return v.match(/^[a-z0-9A-Z]{4,}$/);
+} else {
+return v.length > 1;
+}
+}
+$(function() {
+$('#captcha').bind('keyup blur', function() {
+checkcaptcha($('#captcha').val());
+s = $.trim($('#captcha').val());
+if(!is_captcha(s)) return;
+$.post(AJPath, 'action=captcha&captcha='+s,
+function(data) {
+if(data == '0') {
+captchaStatus = 'success';
+Dd('ccaptcha').innerHTML = '&nbsp;&nbsp;<img src="https://gtimg.in-en.com/image/check-ok.png" align="absmiddle"/>';
+} else {
+captchaStatus = 'error';
+Dd('captcha').focus();
+Dd('ccaptcha').innerHTML = '&nbsp;&nbsp;<img src="https://gtimg.in-en.com/file/image/check-ko.png" align="absmiddle"/>';
+}
+}
+);
+});
+});
+</script>
+</div>
+</div>
+<style>
+.comment_notes{
+border-bottom: 5px solid #009966;
+font-weight: 600;
+padding-bottom: 6px;
+font-size: 20px;
+}
+.stat {padding: 0 15px 10px 10px;}
+.view-more a {
+width: 200px;
+display: inline-block;
+padding: 8px 16px;
+background: #ececec;
+color: #333;
+text-decoration: none;
+border-radius: 4px;
+font-size: 14px;
+transition: background 0.3s;
+margin-bottom: 20px;
+}
+.view-more a:hover {
+background: #e0e0e0;
+}
+</style>
+                <!--end-->
+                <!--相关推荐-->
+                <div class="slideTxtBox imgList">
+    <div class="leftListNav">
+        <h1>
+            <a href="https://chd.in-en.com/ChargingStation/" target="_blank">推荐图片文章</a>
+            <span><a href="https://chd.in-en.com/ChargingStation/" target="_blank">更多&gt;&gt;</a></span>
+        </h1>
+    </div>
+    <!--有一张图片的文章-->
+    <ul class="infoList">
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459297.shtml" target="_blank">2026年3月四川省公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459293.shtml" target="_blank">2026年3月湖北省公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459292.shtml" target="_blank">2026年3月上海市公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459294.shtml" target="_blank">2026年3月山东省公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459295.shtml" target="_blank">2026年3月安徽省公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+                <li>
+        <div class="listTxt nopic" style="padding-left: 0;height: auto;">
+            <h5><a href="https://chd.in-en.com/html/chd-2459289.shtml" target="_blank">2026年3月广东省公共充电设施（枪）数量统计数据表</a></h5>
+            <div class="prompt" style="width: 93%;">
+                <i>5小时前</i>
+                <span>来源：国际能源网 </span>
+                                <span><em>
+                                                 <a href="https://www.in-en.com/tag/公共充电设施" target="_blank">公共充电设施                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/充电设施数量" target="_blank">充电设施数量                            </a>
+                                                                                 <a href="https://www.in-en.com/tag/新能源汽车" target="_blank">新能源汽车                            </a>
+                                                                            </em></span>
+                            </div>
+        </div>
+    </li>
+            </ul>
+<a class="moreBtn">查看更多 &gt;</a>
+<div class="loadingFlowBox"
+    style="width: 100%;margin: 10px 0 15px 0;font-size: 14px;color: #999;display: none;align-items: center;justify-content: center;">
+    <img src="https://gtimg.in-en.com/images/loading.png" style="margin-right: 6px;height: 25px;">正在加载...
+</div>
+<div class="hotAssBtn"><input type="hidden" value=""></div>
+<input type="hidden" id="favor_link" value="https://chd.in-en.com/">
+<input type="hidden" id="articleidstj" value="2459297,2459293,2459292,2459294,2459295,2459289"></div>                            </div>
+        </div>
+    </div>
+    <!--右侧内容-->
+    <div class="rightBox fr">
+    <div class="hotList">
+        <div class="leftListNav"><h3>充换电信息热点排行</h3></div>
+        <ul>
+                                    <li><a href="https://chd.in-en.com/html/chd-2459052.shtml" title="中办、国办最新部署！全面发力充换电基建与电动（氢能）重卡" target="_blank">中办、国办最新部署！全面发力充换电基建与电动（氢能）重卡</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459249.shtml" title="中标 | 广东惠州大亚湾区新能源汽车超充网建设项目（一期）中标候选人公示" target="_blank">中标 | 广东惠州大亚湾区新能源汽车超充网建设项目（一期）中标</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459228.shtml" title="聚焦电动汽车！王文涛部长会见德国汽车工业协会主席穆勒" target="_blank">聚焦电动汽车！王文涛部长会见德国汽车工业协会主席穆勒</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459092.shtml" title="充电设备必须CCC认证！辽宁开原市发文：假冒伪劣充电桩直接出局" target="_blank">充电设备必须CCC认证！辽宁开原市发文：假冒伪劣充电桩直接出局</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459058.shtml" title="耐世特泰国制造工厂盛大开业" target="_blank">耐世特泰国制造工厂盛大开业</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459089.shtml" title="华为侯金龙：运动域智能化+重卡超充化，推动电动汽车产业高质量发展" target="_blank">华为侯金龙：运动域智能化+重卡超充化，推动电动汽车产业高质量</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459158.shtml" title="6月25日！2026超充生态大会暨重卡超充技术应用研讨会即将启幕" target="_blank">6月25日！2026超充生态大会暨重卡超充技术应用研讨会即将启幕</a></li>
+                        <li><a href="https://chd.in-en.com/html/chd-2459102.shtml" title="关于《江西上饶市信州区新能源汽车充电基础设施专项规划（2025-2035 年）》的政策解读" target="_blank">关于《江西上饶市信州区新能源汽车充电基础设施专项规划（2025-2</a></li>
+                    </ul>
+    </div>
+    <!--广告-->
+    <div class="ad3" style="border:0">
+        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A166.js"></script></div>
+<!--        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A301.js"></script></div>-->
+        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A300.js"></script></div>
+    </div>
+    <!--环保人物-->
+    <div class="person">
+        <h3>充换电人物</h3>
+        <script type="text/javascript" src="https://gtimg.in-en.com/inencom/article/js/list.js"></script>
+        <div class="focus" style="margin:0 auto">
+            <div id="pic">
+                <div class="tempWrap" style="overflow:hidden; position:relative; width:278px">
+                    <ul style="width: 1390px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -556px;">
+                                                <li class="clone" style="float: left; width: 278px;">
+                            <a href="https://chd.in-en.com/html/chd-2459227.shtml" target="_blank">
+                                <img src="https://gtimg.in-en.com/diypic/newenergy/newenergy_1614911991_660945325107.jpg" alt="聚焦汽车电动化！辛国斌会见欧洲汽车工业协会秘书长狄薇斯" width="" height="" border="0">
+                            </a>
+                            <h4><a href="https://chd.in-en.com/html/chd-2459227.shtml">聚焦汽车电动化！辛国斌会见欧洲汽车工业协会秘书长狄薇斯</a></h4>
+                        </li>
+                                                <li  style="float: left; width: 278px;">
+                            <a href="https://chd.in-en.com/html/chd-2459280.shtml" target="_blank"><img src="https://gtimg.in-en.com/diypic/newenergy/newenergy_1614911991_382433819997.jpg" alt="国家能源局发展规划司副司长邢翼腾：充换电服务业、人工智能产业用电量增长强劲" width="" height="" border="0"></a>
+                            <h4><a href="https://chd.in-en.com/html/chd-2459280.shtml">国家能源局发展规划司副司长邢翼腾：充换电服务业、人工智能产业用电量增长强劲</a></h4>
+                        </li>
+                                                <li  style="float: left; width: 278px;">
+                            <a href="https://chd.in-en.com/html/chd-2459228.shtml" target="_blank"><img src="https://img.in-en.com/upload/202604/29/10124938279301.jpg" alt="聚焦电动汽车！王文涛部长会见德国汽车工业协会主席穆勒" width="" height="" border="0"></a>
+                            <h4><a href="https://chd.in-en.com/html/chd-2459228.shtml">聚焦电动汽车！王文涛部长会见德国汽车工业协会主席穆勒</a></h4>
+                        </li>
+                                                <li  style="float: left; width: 278px;">
+                            <a href="https://chd.in-en.com/html/chd-2459227.shtml" target="_blank"><img src="https://gtimg.in-en.com/diypic/newenergy/newenergy_1614911991_660945325107.jpg" alt="聚焦汽车电动化！辛国斌会见欧洲汽车工业协会秘书长狄薇斯" width="" height="" border="0"></a>
+                            <h4><a href="https://chd.in-en.com/html/chd-2459227.shtml">聚焦汽车电动化！辛国斌会见欧洲汽车工业协会秘书长狄薇斯</a></h4>
+                        </li>
+                                                <li class="clone" style="float: left; width: 278px;">
+                            <a href="https://chd.in-en.com/html/chd-2459280.shtml" target="_blank">
+                                <img src="https://gtimg.in-en.com/diypic/newenergy/newenergy_1614911991_382433819997.jpg" alt="国家能源局发展规划司副司长邢翼腾：充换电服务业、人工智能产业用电量增长强劲" width="" height="" border="0">
+                            </a>
+                            <h4><a href="https://chd.in-en.com/html/chd-2459280.shtml">聚焦汽车电动化！辛国斌会见欧洲汽车工业协会秘书长狄薇斯</a></h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tip">
+                <ul>
+                    <li class="on"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--氢能人物-->
+    <div class="ad3" style="border:0">
+        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A317.js"></script></div>
+<!--        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A302.js"></script></div>-->
+        <div style="margin-bottom: 5px;"><script type="text/javascript" src="https://www.in-en.com/comm_js/A303.js"></script></div>
+    </div>
+    <div class="tList">
+        <h3>充换电推荐文章</h3>
+        <ul>
+                                    <li>
+                <a href="https://chd.in-en.com/html/chd-2459300.shtml" title="915亿元“两新”资金已下达！新能源公交/货车更新获强力加持" target="_blank">915亿元“两新”资金已下达！新能源公交/货车更新获强力加持</a>
+            </li>
+                        <li>
+                <a href="https://chd.in-en.com/html/chd-2459284.shtml" title="宁夏明确2026充电基建目标：新建2500枪、大功率枪超300个" target="_blank">宁夏明确2026充电基建目标：新建2500枪、大功率枪超300个</a>
+            </li>
+                        <li>
+                <a href="https://chd.in-en.com/html/chd-2459280.shtml" title="国家能源局发展规划司副司长邢翼腾：充换电服务业、人工智能产业用电量增长强劲" target="_blank">国家能源局发展规划司副司长邢翼腾：充换电服务业、人工智能产业用电量增长</a>
+            </li>
+                        <li>
+                <a href="https://chd.in-en.com/html/chd-2459278.shtml" title="四川宜宾出台交通优化提质方案，盘活闲置地块布局超充站" target="_blank">四川宜宾出台交通优化提质方案，盘活闲置地块布局超充站</a>
+            </li>
+                        <li>
+                <a href="https://chd.in-en.com/html/chd-2459260.shtml" title="江苏出台治堵专项行动，同步推进停车与充电设施建设" target="_blank">江苏出台治堵专项行动，同步推进停车与充电设施建设</a>
+            </li>
+                    </ul>
+    </div>
+    <div class="hotWords">
+        <h3>热门标签</h3>
+        <div class="hotWordsList" style="padding: 10px 0;">
+                                    <a href="https://www.in-en.com/keylist.php?q=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6"  class="b">电动汽车</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6"  class="b">新能源汽车</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E5%85%85%E7%94%B5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD"  class="b">充电基础设施</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%B1%BD%E8%BD%A6"  class="b">汽车</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6"  class="b">新能源车</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%B1%BD%E8%BD%A6%E5%85%85%E7%94%B5"  class="b">汽车充电</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%B1%BD%E8%BD%A6%E4%BA%A7%E4%B8%9A"  class="b">汽车产业</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E5%85%85%E7%94%B5%E7%AB%99%E9%A1%B9%E7%9B%AE"  class="b">充电站项目</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E5%85%85%E7%94%B5%E6%A1%A9"  class="b">充电桩</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94"  class="b">智能网联</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E7%89%B9%E6%9D%A5%E7%94%B5"  class="b">特来电</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E6%B1%BD%E8%BD%A6%E4%BA%A7%E9%87%8F"  class="b">汽车产量</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E7%94%B5%E5%8A%A8%E6%9C%BA"  class="b">电动机</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E4%B8%AD%E5%9B%BD%E4%B8%80%E6%B1%BD"  class="b">中国一汽</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E5%85%AC%E4%BA%A4%E8%BD%A6"  class="b">公交车</a>
+                        <a href="https://www.in-en.com/keylist.php?q=%E7%BA%AF%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6"  class="b">纯电动汽车</a>
+                    </div>
+    </div>
+</div>
+  <!--ysort end--></div>
+<!--右侧快捷导航-->
+<!--底部开始-->
+<div class="gjny_dbbq w1200">
+    <h4>国际能源网站群</h4>
+    <a target="_blank" href="https://www.in-en.com/">国际能源网</a>
+    <a target="_blank" href="https://newenergy.in-en.com/">国际新能源网</a>
+    <a target="_blank" href="https://solar.in-en.com/">国际太阳能光伏网</a>
+    <a target="_blank" href="https://power.in-en.com/">国际电力网</a>
+    <a target="_blank" href="https://wind.in-en.com/">国际风电网</a>
+    <a target="_blank" href="https://chuneng.in-en.com/">国际储能网</a>
+    <a target="_blank" href="https://h2.in-en.com/">国际氢能网</a>
+    <a target="_blank" href="https://chd.in-en.com/">国际充换电网</a>
+    <a target="_blank" href="https://huanbao.in-en.com/">国际节能环保网</a>
+    <a target="_blank" href="https://coal.in-en.com/">国际煤炭网</a>
+    <a target="_blank" href="https://oil.in-en.com/">国际石油网</a>
+    <a target="_blank" href="https://gas.in-en.com/">国际燃气网</a>
+</div>
+<!--底部-->
+<div class="footer">
+    <p class="footerNav">
+        <a href="https://www.in-en.com/" hidefocus="true" target="_blank">网站首页</a>｜
+        <a href="https://www.in-en.com/about/index.html" hidefocus="true" target="_blank" rel="nofollow">关于我们</a>｜
+        <a href="https://www.in-en.com/about/service.html">会员服务</a>｜
+        <a href="https://www.in-en.com/about/ad.html">广告服务</a>｜
+        <a href="https://www.in-en.com/research/">报告咨询</a>｜
+        <a href="https://www.in-en.com/about/agreement.html" hidefocus="true" target="_blank" rel="nofollow">服务条款</a>｜
+        <a href="https://www.in-en.com/about/copyright.html" hidefocus="true" target="_blank" rel="nofollow">版权声明</a>｜
+        <!--<a href="https://www.in-en.com/link/" hidefocus="true" target="_blank" rel="nofollow">合作站点</a>｜-->
+        <a href="https://www.in-en.com/about/contact.html" hidefocus="true" target="_blank">联系方式</a>｜
+        <a href="https://www.in-en.com/sitemap/" hidefocus="true" target="_blank">网站地图</a>
+    </p>
+    <div class="content">
+        <p><a href="https://www.in-en.com/" target="_blank">国际能源网</a>——专业的能源产业价值链服务平台</p>
+        <p>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">京ICP备14050515号</a> 
+            增值电信业务许可证：京B2-20210837
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802039339" rel="nofollow">京公网安备11010802039339号</a>
+        </p>
+        <p>Copyright 2005-2026 in-en.com. All Rights Reserved </p>
+    </div>
+</div>
+<script type="text/javascript">
+show_task('moduleid=39&html=show&itemid=2430196&page=1');
+</script>
+<link rel="stylesheet" href="https://gtimg.in-en.com/inencom/member/css/login5.css">
+<div class="wrapper_login hidden">
+<div class="container">
+<!-- 跳过按钮 -->
+<a class="skip">跳过</a>
+<!-- 头部 -->
+<div class="header_l"><img src="https://gtimg.in-en.com/images/login5/logo.jpg" alt=""></div>
+<!-- 登录方式切换 -->
+<div class="tabs_login">
+<div class="tab_login active" data-active="sms">验证码登录</div>
+<div class="tab_login" data-active="account">账号密码登录</div>
+<!--        <div class="tab">二维码登录</div>-->
+</div>
+<!-- 表单 -->
+<div class="form_login">
+<form method="post"  action="" id="sms" class="form-tab" onsubmit="return checkS();">
+<input type="hidden" name="forward" value="https://chd.in-en.com/html/chd-2430196.shtml" class="jump_url"/>
+<input type="hidden" name="action" value="sms"/>
+<div class="form-group">
+<div class="input-group">
+<button class="btn-send-mobile"> + 86 </button>
+<input type="tel" name="mobile" class="input_login" placeholder="请输入手机号" />
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<input type="text" name="captcha" id="captcha" class="input_login code_login" placeholder="请输入验证码" />
+<img src="https://www.in-en.com/api/captcha.php?action=image" id="captchapng"  title="看不清楚验证码?请点击刷新&#10;字母不区分大小写"  alt="" onclick="reloadcaptcha();" >
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<input type="text" name="code"  class="input_login code_login" placeholder="请输入短信验证码" />
+<button class="btn-send-code is-disabled">发送验证码</button>
+</div>
+</div>
+<div class="checkbox_l hidden">
+<input type="checkbox" name="autoLogin" id="auto-login" />
+<label for="auto-login">下次自动登录</label>
+</div>
+<input type="submit" class="btn-login" name="submit" value="登 录">
+</form>
+<form method="post"  action="" id="account" class="form-tab hidden" onsubmit="return checkA();">
+<input type="hidden" name="forward" value="https://chd.in-en.com/html/chd-2430196.shtml" class="jump_url"/>
+<input type="hidden" name="action" value="login"/>
+<input type="hidden" name="auth" value="https%3A%2F%2Fchd.in-en.com%2Fhtml%2Fchd-2430196.shtml"/>
+<div class="form-group">
+<div class="input-group">
+<input type="tel" name="username" class="input_login" placeholder="请输入手机号或邮箱" />
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<input type="password" name="password"  class="input_login code_login" placeholder="请输入登录密码" />
+<a href="https://www.in-en.com/member/send.php" class="btn-no-pass">忘记密码</a>
+</div>
+</div>
+<div class="checkbox_l hidden">
+<input type="checkbox" name="autoLogin" id="auto-login-account" />
+<label for="auto-login">下次自动登录</label>
+</div>
+<input type="submit" class="btn-login" name="submit" value="登 录">
+</form>
+<div class="agreement">
+<input type="checkbox"  id="agree" class="circle-checkbox" />
+<label for="agree">阅读并同意</label>
+<a href="https://www.in-en.com/about/agreement.html" class="link_login">服务协议</a>
+<span>、</span>
+<a href="#" class="link_login">隐私政策</a>
+</div>
+<div class="wechat-login"  onclick="openChildWindow()">
+<div class="wechat-icon"></div>
+<span>微信登录</span>
+</div>
+</div>
+</div>
+<!-- 绑定手机 -->
+<div class="mobile_oauth hidden">
+<form method="post"  action="" id="sms_oauth" class="form-tab" onsubmit="return checkO();">
+<h3>绑定手机号</h3>
+<div class="mobile_oauth_title">使用三方登录的用户需绑定手机号</div>
+<input type="hidden" name="forward" value="https://chd.in-en.com/html/chd-2430196.shtml" class="jump_url"/>
+<div class="form-group">
+<div class="input-group">
+<button class="btn-send-mobile"> + 86 </button>
+<input type="tel" name="mobile_oauth" class="input_login" placeholder="请输入手机号" />
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<input type="text" name="code_oauth"  class="input_login code_login" placeholder="请输入验证码" />
+<button class="btn-send-code-oauth is-disabled">发送验证码</button>
+</div>
+</div>
+<input type="submit" class="btn-login" name="submit" value="绑 定">
+</form>
+</div>
+<input type="hidden" id="link_login" value="https://chd.in-en.com/">
+<input type="hidden" id="appid_login" value="wx25343eb27733f4b9">
+<input type="hidden" id="moduleid_login" value="39">
+<div class="mask hidden">
+<!-- 跳过按钮 -->
+<a class="end-tag">x</a>
+<!-- 头部 -->
+<div class="header_l"><img src="https://gtimg.in-en.com/images/login5/logo2.jpg" alt=""></div>
+<div class="content-img">
+<div class="qun"><img src="" alt=""></div>
+<div class="tag">微信扫一扫 立即添加</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://gtimg.in-en.com/inencom/member/js/login5.js"></script><!--点击举报信息需要传入的值-->
+<input type="hidden" class="jubaoBox" data-mid="39" data-itemid="2430196">
+</body>
+</html>
