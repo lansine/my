@@ -77,7 +77,7 @@
 
 ## 在线访问
 
-[https://git-s.oss-cn-hongkong.aliyuncs.com](https://git-s.oss-cn-hongkong.aliyuncs.com)
+[liaolan.xin](http://liaolan.xin) | [git-s.oss-cn-hongkong.aliyuncs.com](https://git-s.oss-cn-hongkong.aliyuncs.com)
 
 推送到 `main` 分支后由 GitHub Actions 自动部署至阿里云 OSS。
 
