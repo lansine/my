@@ -44,6 +44,7 @@
 | 4 | 新浪科技 | https://tech.sina.cn/2023-09-07/detail-imzkvxmn3643195.d.html |
 | 5 | 运营商财经网(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=59*CD7u7TVpcNSUZYiZzf-liTZn0YpCnx2KNKW2NcB2zoIpjBDZxxmPTbDUrg1Mw0awrQknVxdnfmr7QIQ5DPfmaW*9D59M54YAK8GYTxwCwVc-jma1FswJKuS8cya0v&new=1 |
 | 6 | 充换电展(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=CDZlyf2bYKp81H9JVCGS3fxc3Iw-HrWwMAR7-3ZHp5FzpG-Udr53nqEr2TgO0yE7D2zlO-HEpB5iRNFeaa1-lqhAQxhavA9hZLrJuXiddueilBHkXiNnmvrYQjaS8lSM&new=1 |
+| 7 | 青澄财经(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1778400573&ver=6711&signature=Vp0u8HgkWTAY-s8CDSQfroomf9FxUl35GsYSeN3cuAcyWIDzF*Ovzb1x2nVn9XdmhPl5RVobnUOodp17V6AdTd4Ut3XnzAeBIdyW87aOW3fMS8TfCK9axM0wS58jJRYi&new=1 |
 
 ---
 
@@ -63,6 +64,7 @@
 | 6 | 牛喀网 | https://i-newcar.com/index.php?m=home&c=View&a=index&aid=1151 |
 | 7 | 充电桩资源(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=uQsX7UwzES5eZ7*iDrucIBaaNrlTgDsc7-CexSfBwFMhQJNUVn49hi5bOvFD-aMtdwUnxlS08f9w88AxfzAWP7J3N7Er3Me7IlHRqKNOyosvcfhb2pyfaoNNjHQkuQd7&new=1 |
 | 8 | 充换电展(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=IdZ7TC28lj3Fb1fkyFyTIOqEqBYIyQrzknFiVYFSRVejwHx20pKgf*O-AJZprDB-0MXpqoKmex2I2hNEEP9BAstraiHL2lQ*nn12avELiYl2z0*lhNHeb8grxN-cu8eg&new=1 |
+| 9 | 中国经营报(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1778400573&ver=6711&signature=DfNWdmjzLoEeiLqUaEpDGjzEqOy9p0QqJjlnlsJAR-qQe3y4D0sm4BghrK-VQOFRPM8BzgcC7jkraiZSGjkA*d2aonNpcZQBexv2kn*Ea*uimjwL11giEFW3*JCRGnm5U&new=1 |
 
 ---
 
