@@ -3,3 +3,6 @@
 *.swo
 *~
 .env
+.idea/
+.*-prompt.txt
+.calibrate-batch*.txt
