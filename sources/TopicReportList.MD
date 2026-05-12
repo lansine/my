@@ -45,6 +45,9 @@
 | 5 | 运营商财经网(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=59*CD7u7TVpcNSUZYiZzf-liTZn0YpCnx2KNKW2NcB2zoIpjBDZxxmPTbDUrg1Mw0awrQknVxdnfmr7QIQ5DPfmaW*9D59M54YAK8GYTxwCwVc-jma1FswJKuS8cya0v&new=1 |
 | 6 | 充换电展(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=CDZlyf2bYKp81H9JVCGS3fxc3Iw-HrWwMAR7-3ZHp5FzpG-Udr53nqEr2TgO0yE7D2zlO-HEpB5iRNFeaa1-lqhAQxhavA9hZLrJuXiddueilBHkXiNnmvrYQjaS8lSM&new=1 |
 | 7 | 青澄财经(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1778400573&ver=6711&signature=Vp0u8HgkWTAY-s8CDSQfroomf9FxUl35GsYSeN3cuAcyWIDzF*Ovzb1x2nVn9XdmhPl5RVobnUOodp17V6AdTd4Ut3XnzAeBIdyW87aOW3fMS8TfCK9axM0wS58jJRYi&new=1 |
+| 8 | 网易科技 | https://www.163.com/tech/article/IE1G0HFD00097U7R.html |
+| 9 | 搜狐(上证报转载) | https://www.sohu.com/a/718444338_120988576 |
+| 10 | 国际充换电网(青澄财经) | https://chd.in-en.com/html/chd-2431481.shtml |
 
 ---
 
@@ -65,6 +68,9 @@
 | 7 | 充电桩资源(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=uQsX7UwzES5eZ7*iDrucIBaaNrlTgDsc7-CexSfBwFMhQJNUVn49hi5bOvFD-aMtdwUnxlS08f9w88AxfzAWP7J3N7Er3Me7IlHRqKNOyosvcfhb2pyfaoNNjHQkuQd7&new=1 |
 | 8 | 充换电展(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1777902300&ver=6700&signature=IdZ7TC28lj3Fb1fkyFyTIOqEqBYIyQrzknFiVYFSRVejwHx20pKgf*O-AJZprDB-0MXpqoKmex2I2hNEEP9BAstraiHL2lQ*nn12avELiYl2z0*lhNHeb8grxN-cu8eg&new=1 |
 | 9 | 中国经营报(微信) | https://mp.weixin.qq.com/s?src=11&timestamp=1778400573&ver=6711&signature=DfNWdmjzLoEeiLqUaEpDGjzEqOy9p0QqJjlnlsJAR-qQe3y4D0sm4BghrK-VQOFRPM8BzgcC7jkraiZSGjkA*d2aonNpcZQBexv2kn*Ea*uimjwL11giEFW3*JCRGnm5U&new=1 |
+| 10 | 搜狐(另一来源) | https://www.sohu.com/a/722020781_100044558 |
+| 11 | 汽车之家(新闻频道) | https://m.autohome.com.cn/news/202309/1288729.html |
+| 12 | 搜狐/中国经营报(搜狐版) | https://www.sohu.com/a/722728121_100106037 |
 
 ---
 
@@ -81,6 +87,9 @@
 | 3 | 国际充换电网 | https://chd.in-en.com/html/chd-2444039.shtml |
 | 4 | 中关村在线 | https://auto.zol.com.cn/874/8741712.html |
 | 5 | SUV汽车网 | http://suvqc.com.cn/hye/283322.html |
+| 6 | 汽车之家 | https://m.autohome.com.cn/news/202405/1297129.html |
+| 7 | 搜狐/大力财经 | https://m.sohu.com/a/781327883_211762 |
+| 8 | 电子工程世界 | https://www.eeworld.com.cn/qcdz/eic669296.html |
 
 ---
 
@@ -126,6 +135,9 @@
 | 6 | 能见 | https://www.nengapp.com/m/zixun/72b486449bcafb4cf6cee278329e4e14 |
 | 7 | 电商派 | https://www.pai.com.cn/p/01jdestk38s2rvdy2cpj6f852d |
 | 8 | 国际充换电网 | https://chd.in-en.com/html/chd-2448538.shtml |
+| 9 | 凤凰网 | https://i.ifeng.com/c/8eijyqnSVEi |
+| 10 | 中国基金报 | https://www.chnfund.com/article/ARc970a365-5c88-4130-53a2-3a161ce3bca9 |
+| 11 | 腾讯新闻(中新经纬) | https://news.qq.com/rain/a/20241122A07T9N00 |
 | 9 | 凤凰网 | https://i.ifeng.com/c/8eijyqnSVEi |
 | 10 | 中国基金报 | https://www.chnfund.com/article/ARc970a365-5c88-4130-53a2-3a161ce3bca9 |
 
