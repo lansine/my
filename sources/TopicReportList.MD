@@ -48,6 +48,9 @@
 | 8 | 网易科技 | https://www.163.com/tech/article/IE1G0HFD00097U7R.html |
 | 9 | 搜狐(上证报转载) | https://www.sohu.com/a/718444338_120988576 |
 | 10 | 国际充换电网(青澄财经) | https://chd.in-en.com/html/chd-2431481.shtml |
+| 11 | 央广网 | https://tech.cnr.cn/techph/20230907/t20230907_526410865.shtml |
+| 12 | 国际充换电网 | https://chd.in-en.com/html/chd-2429924.shtml |
+| 13 | 电商派(间接引用) | https://www.pai.com.cn/228824.html |
 
 ---
 
@@ -71,6 +74,9 @@
 | 10 | 搜狐(另一来源) | https://www.sohu.com/a/722020781_100044558 |
 | 11 | 汽车之家(新闻频道) | https://m.autohome.com.cn/news/202309/1288729.html |
 | 12 | 搜狐/中国经营报(搜狐版) | https://www.sohu.com/a/722728121_100106037 |
+| 13 | 新浪科技 | https://finance.sina.cn/stock/ssgs/2023-09-14/detail-imzmsfwa7311969.d.html |
+| 14 | 腾讯新闻/出行范儿 | https://news.qq.com/rain/a/20230914A06BHM00 |
+| 15 | 车桩能源网(智能运维白皮书) | http://www.chezhuangw.com/sys-nd/1485.html |
 
 ---
 
@@ -138,8 +144,8 @@
 | 9 | 凤凰网 | https://i.ifeng.com/c/8eijyqnSVEi |
 | 10 | 中国基金报 | https://www.chnfund.com/article/ARc970a365-5c88-4130-53a2-3a161ce3bca9 |
 | 11 | 腾讯新闻(中新经纬) | https://news.qq.com/rain/a/20241122A07T9N00 |
-| 9 | 凤凰网 | https://i.ifeng.com/c/8eijyqnSVEi |
-| 10 | 中国基金报 | https://www.chnfund.com/article/ARc970a365-5c88-4130-53a2-3a161ce3bca9 |
+| 12 | 央广网 | https://tech.cnr.cn/techph/20241122/t20241122_526985186.shtml |
+| 13 | 国际充换电网(科普引用) | https://mchd.in-en.com/html/chd-2450436.shtml |
 
 ---
 
@@ -219,3 +225,6 @@
 | 5 | 经济观察网 | http://www.eeo.com.cn/2025/1125/769036.shtml |
 | 6 | 观察者网 | https://www.guancha.cn/economy/2025_11_25_798231.shtml |
 | 7 | 南方都市报 | https://view.inews.qq.com/a/20251126A0543600 |
+| 8 | 腾讯新闻/观点网 | https://news.qq.com/rain/a/20251125A067UU00 |
+| 9 | 汽车之家/禾颜阅车 | https://chejiahao.m.autohome.com.cn/info/24477351 |
+| 10 | OFweek新能源汽车 | https://nev.ofweek.com/2025-12/ART-71000-8110-30675819.html |
