@@ -36,6 +36,7 @@
 
 ## 搜索工具优先级
 - 优先使用 Tavily MCP 工具（mcp__tavily__tavily_search、mcp__tavily__tavily_extract）
+- 补充使用 multi-search-engine（百度、微信搜狗、头条、360）— 通过 WebFetch 调用搜索引擎 URL
 - 备选：WebSearch
 
 ## Git 工作流
