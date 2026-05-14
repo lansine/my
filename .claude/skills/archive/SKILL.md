@@ -104,6 +104,40 @@ topic: <归属事件主题>
 cd ~/projects/github/my
 git add -A
 git commit -m "feat: 归档报道 - <来源> <简要标题>"
+```
+
+### 9. 唯一性校验（push 前必做）
+
+提交完后、push 前必须验证 TopicReportList 没有重复 URL：
+
+```bash
+DUPS=$(grep -oE 'https?://[^ |]+' sources/TopicReportList.MD | sort | uniq -d)
+if [ -n "$DUPS" ]; then
+  echo '⚠️ 发现重复 URL，请检查 TopicReportList.MD：'
+  echo "$DUPS"
+  exit 1
+fi
+echo '✅ TopicReportList URL 唯一性校验通过'
+```
+
+校验通过后才能 push：
+
+```bash
+git push origin main
+```
+
+> **背景**：曾发生过编辑 TopicReportList 时误粘贴重复行的 bug，导致进度数字虚高。这一步用于拦截类似问题。
+### 9. 校验唯一性（push 之前必做）
+
+防止编辑 TopicReportList.MD 时误引入重复行。如果发现重复 URL，必须先修复再 push。
+
+```bash
+dups=$(grep -oE 'https?://[^ |)]+' sources/TopicReportList.MD | sort | uniq -d)
+if [ -n "$dups" ]; then
+  echo "❌ 发现重复 URL，禁止 push："
+  echo "$dups"
+  exit 1
+fi
 git push origin main
 ```
 
