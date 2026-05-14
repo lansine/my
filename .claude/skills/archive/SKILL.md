@@ -127,19 +127,6 @@ git push origin main
 ```
 
 > **背景**：曾发生过编辑 TopicReportList 时误粘贴重复行的 bug，导致进度数字虚高。这一步用于拦截类似问题。
-### 9. 校验唯一性（push 之前必做）
-
-防止编辑 TopicReportList.MD 时误引入重复行。如果发现重复 URL，必须先修复再 push。
-
-```bash
-dups=$(grep -oE 'https?://[^ |)]+' sources/TopicReportList.MD | sort | uniq -d)
-if [ -n "$dups" ]; then
-  echo "❌ 发现重复 URL，禁止 push："
-  echo "$dups"
-  exit 1
-fi
-git push origin main
-```
 
 ## 批量归档
 
