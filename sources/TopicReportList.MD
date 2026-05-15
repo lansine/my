@@ -51,6 +51,7 @@
 | 11 | 央广网 | https://tech.cnr.cn/techph/20230907/t20230907_526410865.shtml |
 | 12 | 国际充换电网 | https://chd.in-en.com/html/chd-2429924.shtml |
 | 13 | 电商派(间接引用) | https://www.pai.com.cn/228824.html |
+| 14 | 新浪财经(中国经营报转载) | https://finance.sina.com.cn/jjxw/2023-10-13/doc-imzqxtxq1011347.shtml |
 
 ---
 
@@ -77,6 +78,7 @@
 | 13 | 新浪科技 | https://finance.sina.cn/stock/ssgs/2023-09-14/detail-imzmsfwa7311969.d.html |
 | 14 | 腾讯新闻/出行范儿 | https://news.qq.com/rain/a/20230914A06BHM00 |
 | 15 | 车桩能源网(智能运维白皮书) | http://www.chezhuangw.com/sys-nd/1485.html |
+| 16 | 今日头条(中国经营报) | https://www.toutiao.com/article/7281668762271531559/ |
 
 ---
 
@@ -96,6 +98,8 @@
 | 6 | 汽车之家 | https://m.autohome.com.cn/news/202405/1297129.html |
 | 7 | 搜狐/大力财经 | https://m.sohu.com/a/781327883_211762 |
 | 8 | 电子工程世界 | https://www.eeworld.com.cn/qcdz/eic669296.html |
+| 9 | 腾讯新闻/赛博汽车 | https://view.inews.qq.com/a/20240524A09GJK00 |
+| 10 | 头部财经 | https://m.top168.com/news/202405/6934.html |
 
 ---
 
@@ -146,6 +150,7 @@
 | 11 | 腾讯新闻(中新经纬) | https://news.qq.com/rain/a/20241122A07T9N00 |
 | 12 | 央广网 | https://tech.cnr.cn/techph/20241122/t20241122_526985186.shtml |
 | 13 | 国际充换电网(科普引用) | https://mchd.in-en.com/html/chd-2450436.shtml |
+| 14 | 快科技 | https://news.mydrivers.com/1/1015/1015495.htm |
 
 ---
 
