@@ -234,6 +234,14 @@
 | 8 | 腾讯新闻/观点网 | https://news.qq.com/rain/a/20251125A067UU00 |
 | 9 | 汽车之家/禾颜阅车 | https://chejiahao.m.autohome.com.cn/info/24477351 |
 | 10 | OFweek新能源汽车 | https://nev.ofweek.com/2025-12/ART-71000-8110-30675819.html |
+| 11 | 新华网 | http://www.news.cn/tech/20251125/b4bac6e988ed4bb780cd2e09b2af5dfb/c.html |
+| 12 | 澎湃新闻 | https://m.thepaper.cn/newsDetail_forward_32039593 |
+| 13 | 雷峰网 | https://www.leiphone.com/category/industrynews/wXcmyw8nzy7ExbWt.html |
+| 14 | 新浪新闻 | https://www.sina.cn/news/detail/5237230089275882.html |
+| 15 | 西部网（陕西新闻网） | http://auto.cnwest.com/qczx/a/2025/11/26/23244251.html |
+| 16 | 新浪财经（澎湃微博转发） | https://finance.sina.com.cn/stock/wbstock/2025-11-25/doc-infyrmiw3997064.shtml |
+| 17 | 凤凰财经（证券时报） | https://finance.ifeng.com/c/8oZWbrjP977 |
+| 18 | 凤凰网汽车（易车） | https://auto.ifeng.com/c/8oa1h8VQzux |
 
 ---
 
