@@ -52,6 +52,7 @@
 | 12 | 国际充换电网 | https://chd.in-en.com/html/chd-2429924.shtml |
 | 13 | 电商派(间接引用) | https://www.pai.com.cn/228824.html |
 | 14 | 新浪财经(中国经营报转载) | https://finance.sina.com.cn/jjxw/2023-10-13/doc-imzqxtxq1011347.shtml |
+| 15 | 鞭牛士 | https://www.bianews.com/news/details?id=163393 |
 
 ---
 
@@ -233,3 +234,27 @@
 | 8 | 腾讯新闻/观点网 | https://news.qq.com/rain/a/20251125A067UU00 |
 | 9 | 汽车之家/禾颜阅车 | https://chejiahao.m.autohome.com.cn/info/24477351 |
 | 10 | OFweek新能源汽车 | https://nev.ofweek.com/2025-12/ART-71000-8110-30675819.html |
+
+---
+
+## 14. 《中国充电基础设施服务质量发展报告》联合发布
+
+- **时间**: 2024.04.15
+- **场合**: 车百智库（中国电动汽车百人会）× 小桔充电 联合出品
+- **类型**: 行业报告
+
+| # | 来源 | 链接 |
+|---|------|------|
+| 1 | 发现报告 | https://www.fxbaogao.com/detail/4224714 |
+
+---
+
+## 15. 数智化运营商定位 - 中国能源报综合报道
+
+- **时间**: 2024.08
+- **场合**: 中国能源报专题报道
+- **类型**: 媒体综合报道
+
+| # | 来源 | 链接 |
+|---|------|------|
+| 1 | 网易订阅(中国能源报) | https://www.163.com/dy/article/J95NA99A05567I2C.html |
