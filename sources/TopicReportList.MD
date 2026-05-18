@@ -56,6 +56,18 @@
 
 ---
 
+## 3.5 中国经营报整版报道：千亿蓝海可期 能源企业抢滩布局充电桩市场
+
+- **时间**: 2023.10.02
+- **场合**: 《中国经营报》B15 能源·化工版（含廖兰新车网互动智能化引用段落）
+- **类型**: 行业深度报道
+
+| # | 来源 | 链接 |
+|---|------|------|
+| 1 | 中国经营报 PDF | http://dianzibao.cb.com.cn/images/2023-10/02/19/2524B15B.pdf |
+
+---
+
 ## 4. 首次公开充电桩智能化五大关键技术
 
 - **时间**: 2023.09.14
@@ -242,6 +254,8 @@
 | 16 | 新浪财经（澎湃微博转发） | https://finance.sina.com.cn/stock/wbstock/2025-11-25/doc-infyrmiw3997064.shtml |
 | 17 | 凤凰财经（证券时报） | https://finance.ifeng.com/c/8oZWbrjP977 |
 | 18 | 凤凰网汽车（易车） | https://auto.ifeng.com/c/8oa1h8VQzux |
+| 19 | 民生网（民生周刊） | https://www.msweekly.com/show.html?id=178504 |
+| 20 | 知乎专栏 | https://zhuanlan.zhihu.com/p/1977044989709149872 |
 
 ---
 

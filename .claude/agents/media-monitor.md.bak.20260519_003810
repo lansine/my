@@ -29,7 +29,7 @@ description: |
   触发策略进化流程。
   </commentary>
   </example>
-model: claude-opus-4-7
+model: sonnet
 color: green
 tools: ["Read", "Write", "Edit", "Bash", "mcp__tavily__tavily_search", "mcp__tavily__tavily_extract", "mcp__tavily__tavily_research", "WebSearch"]
 ---
